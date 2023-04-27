@@ -14,7 +14,7 @@ blocks:
       src: ''
     label: ''
     headline: SBS Earth
-    subhead: A site builder for Web3
+    subhead: An Upcoming Event
     body: |
       Make modern Web3 ready websites with a real-time visual editor.
     buttons:
@@ -28,5 +28,6 @@ meta:
   title: Microgen
   description: ''
 ---
+
 
 
