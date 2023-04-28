@@ -10,7 +10,7 @@ blocks:
       subheadStyles: text-gray mg-copy-large mb-7
       textStyles: text-black mg-copy-medium mb-24
     background:
-      fillStyles: from-accent3 to-accent4 bg-gradient-to-tl opacity-100
+      fillStyles: ' opacity-100'
       src: ''
     label: ''
     headline: SBS Earth
@@ -23,11 +23,12 @@ blocks:
         buttonStyle: primary
         fathomId: ''
     _template: feature
-backgroundColor: white
+backgroundColor: black
 meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
