@@ -39,8 +39,9 @@ buttons:
     padding: pt-2.5 pb-2.5 pr-9 pl-9
     primaryBorder: border-primary border-0
     primaryRounded: rounded
-linkColor: primary
+linkColor: accent1
 ---
+
 
 
 
