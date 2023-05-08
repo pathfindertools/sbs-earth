@@ -33,7 +33,7 @@ blocks:
         link: 'https://github.com/pathfindertools/microgen'
         buttonStyle: primary
         fathomId: ''
-      - label: Register (or Keep me posted?)
+      - label: Register
         link: 'https://github.com/pathfindertools/microgen'
         buttonStyle: primary
     _template: feature
@@ -42,6 +42,7 @@ meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
