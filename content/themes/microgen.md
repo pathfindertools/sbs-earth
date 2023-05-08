@@ -33,7 +33,7 @@ typo:
       {"family":"Inter:wght@900","size":"50","lineHeight":"60","letterSpacing":"0","margin":"0","smSize":"48","smLineHeight":"60","smLetterSpacing":"0","smMargin":"0"}
 buttons:
   - label: Primary
-    fill: bg-primary opacity-100
+    fill: bg-accent1 opacity-100
     typography: >-
       {"color":"white","family":"Inter:wght@400","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
     padding: pt-2.5 pb-2.5 pr-9 pl-9
@@ -41,6 +41,7 @@ buttons:
     primaryRounded: rounded
 linkColor: primary
 ---
+
 
 
 
