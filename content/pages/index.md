@@ -29,7 +29,7 @@ blocks:
       \
       Call to action for prospective attendees
     buttons:
-      - label: Get Started
+      - label: Submit a proposal
         link: 'https://github.com/pathfindertools/microgen'
         buttonStyle: primary
         fathomId: ''
@@ -39,6 +39,7 @@ meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
