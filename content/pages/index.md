@@ -34,12 +34,14 @@ blocks:
         buttonStyle: primary
         fathomId: ''
       - label: Register (or Keep me posted?)
+        link: 'https://github.com/pathfindertools/microgen'
     _template: feature
 backgroundColor: black
 meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
