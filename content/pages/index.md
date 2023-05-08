@@ -14,9 +14,20 @@ blocks:
       src: ''
     label: ''
     headline: SBS Earth
-    subhead: An Upcoming Event
+    subhead: 'August 15, 2023'
     body: |
-      Make modern Web3 ready websites with a real-time visual editor.
+      CONTENT NEEDED\
+      \
+      About: at least one paragraph on the event, explaining …\
+      \- how this is different from previous SBS events\
+      \- why we're going virtual\
+      \- it's not replacing the IRL events\
+      \- why this is exciting
+
+      \
+      Call for proposals paragraph\
+      \
+      Call to action for prospective attendees
     buttons:
       - label: Get Started
         link: 'https://github.com/pathfindertools/microgen'
@@ -28,6 +39,7 @@ meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
