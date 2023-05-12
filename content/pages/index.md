@@ -15,19 +15,18 @@ blocks:
     label: ''
     headline: SBS Earth
     subhead: 'August 15, 2023'
-    body: |
-      CONTENT NEEDED\
-      \
-      About: at least one paragraph on the event, explaining …\
-      \- how this is different from previous SBS events\
-      \- why we're going virtual\
-      \- it's not replacing the IRL events\
-      \- why this is exciting
+    body: >
+      Welcome to the inaugural virtual Sustainable Blockchain Summit, where
+      technology meets sustainability in a groundbreaking digital experience!
+      This pioneering event unites industry leaders, innovators, and
+      sustainability enthusiasts to explore the power of blockchain in promoting
+      a greener and more equitable world.
 
-      \
-      Call for proposals paragraph\
-      \
-      Call to action for prospective attendees
+
+      Engage with inspiring keynotes and interactive panels of global experts,
+      and discover how sustainable blockchain solutions can reshape our future.
+      Register now for this virtual adventure and join the movement to harness
+      blockchain's potential for a cleaner, more sustainable tomorrow.
     buttons:
       - label: Submit a proposal
         link: 'https://github.com/pathfindertools/microgen'
@@ -42,6 +41,7 @@ meta:
   title: Microgen
   description: ''
 ---
+
 
 
 
