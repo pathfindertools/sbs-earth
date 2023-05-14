@@ -105,8 +105,13 @@ blocks:
       buttonLayout: undefined
       buttonWidth: undefined
     label: ''
-    headline: ''
+    headline: >-
+      Engage with inspiring keynotes and interactive panels of global experts,
+      and discover how sustainable blockchain solutions can reshape our future. 
+      Register now for this virtual adventure and join the movement to harness
+      blockchain's potential for a cleaner, more sustainable tomorrow.
     subhead: ''
+    body: ''
     items:
       - headline: ''
         subhead: ''
@@ -121,12 +126,14 @@ blocks:
           tomorrow.
       - headline: ''
         subhead: ''
+        body: ''
     _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
