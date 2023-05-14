@@ -59,17 +59,19 @@ blocks:
         buttonStyle: primary
     _template: feature
   - style:
-      alignment: flex-row items-center gap-0
+      alignment: 'flex-row items-center '
       padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: mx-auto
+      featureImage: wpx-177  mx-auto
       featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
     background:
       fillStyles: ' opacity-100'
       src: /uploads/bg-dots.svg
+    image:
+      src: /uploads/quote-minds.svg
     headline: Headline
     subhead: Subhead
     _template: feature
@@ -78,6 +80,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
