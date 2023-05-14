@@ -32,8 +32,8 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       src: /uploads/bg-dots.svg
-    headline: Headline
-    subhead: Subhead
+    headline: ''
+    subhead: ''
     body: ''
     buttons:
       - label: Submit a proposal
@@ -51,8 +51,8 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       src: /uploads/bg-dots.svg
-    headline: Headline
-    subhead: Subhead
+    headline: ''
+    subhead: ''
     body: ''
     buttons:
       - label: Register
@@ -86,6 +86,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
