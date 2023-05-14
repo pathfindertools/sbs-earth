@@ -6,7 +6,7 @@ colors:
   accent1: '#99FF00'
   accent2: '#12DA00'
   accent3: '#00FFFF'
-  accent4: '#F5F9FE'
+  accent4: '#00002E'
   white: '#FFFFFF'
   grayLight: '#E8E8EF'
   gray: '#B0B0BF'
@@ -48,6 +48,7 @@ buttons:
     primaryRounded: rounded
 linkColor: accent1
 ---
+
 
 
 
