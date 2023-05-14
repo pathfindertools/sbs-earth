@@ -91,11 +91,27 @@ blocks:
       Register now for this virtual adventure and join the movement to harness
       blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
+  - style:
+      alignment: flex-row items-center gap-0
+      padding: pt-20 pb-20 pr-10 pl-10
+      featureImage: mx-auto
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    background:
+      fillStyles: ' opacity-100'
+      src: /uploads/bg-dots.svg
+    headline: ''
+    subhead: ''
+    _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
