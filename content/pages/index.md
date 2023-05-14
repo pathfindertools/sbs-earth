@@ -60,9 +60,9 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row items-center '
-      padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: wpx-177  mx-auto
-      featureContent: w-1/2 min-h-0 text-left
+      padding: pt-20 pb-48 pr-10 pl-10
+      featureImage: wpx-420  mx-auto
+      featureContent: w-1/5 min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
@@ -74,12 +74,19 @@ blocks:
       src: /uploads/quote-minds.svg
     headline: Headline
     subhead: Subhead
+    body: >
+      Welcome to the inaugural virtual Sustainable Blockchain Summit, where
+      technology meets sustainability in a groundbreaking digital experience!
+      This pioneering event unites industry leaders, innovators, and
+      sustainability enthusiasts to explore the power of blockchain in promoting
+      a greener and more equitable world.
     _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
