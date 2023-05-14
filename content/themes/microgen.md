@@ -1,5 +1,5 @@
 ---
-name: Microgen
+name: SBS Earth
 desktopWidth: '1100'
 colors:
   primary: '#0066FF'
@@ -30,7 +30,7 @@ typo:
       {"family":"Inter:wght@900","size":"22","lineHeight":"28","letterSpacing":"0","margin":"0","smSize":"18","smLineHeight":"28","smLetterSpacing":"0","smMargin":"0"}
   - label: Headline Large
     typography: >-
-      {"family":"Inter:wght@900","size":"50","lineHeight":"60","letterSpacing":"0","margin":"0","smSize":"48","smLineHeight":"60","smLetterSpacing":"0","smMargin":"0"}
+      {"family":"Inter:wght@900","size":"24","lineHeight":"60","letterSpacing":"0","margin":"0","smSize":"48","smLineHeight":"60","smLetterSpacing":"0","smMargin":"0"}
 buttons:
   - label: Default
     fill: ' opacity-100'
@@ -48,6 +48,7 @@ buttons:
     primaryRounded: rounded-none
 linkColor: accent1
 ---
+
 
 
 
