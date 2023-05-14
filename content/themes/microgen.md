@@ -40,14 +40,15 @@ buttons:
     primaryBorder: border-primary border-0
     primaryRounded: undefined
   - label: Primary
-    fill: bg-accent1 opacity-100
+    fill: bg-primary opacity-100
     typography: >-
-      {"color":"white","family":"Inter:wght@400","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
-    padding: pt-2.5 pb-2.5 pr-9 pl-9
+      {"color":"white","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+    padding: pt-3.5 pb-3.5 pr-3.5 pl-3.5
     primaryBorder: border-primary border-0
-    primaryRounded: rounded
+    primaryRounded: rounded-none
 linkColor: accent1
 ---
+
 
 
 
