@@ -1,21 +1,6 @@
 ---
 blocks:
   - style:
-      alignment: flex-row items-center gap-0
-      padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: mx-auto
-      featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
-    background:
-      fillStyles: ' opacity-100'
-      src: /uploads/bg-mountain-dots.svg
-    headline: Headline
-    subhead: Subhead
-    _template: feature
-  - style:
       alignment: 'flex-row items-center '
       padding: pt-20 pb-0 pr-10 pl-10
       featureImage: '  mx-auto'
@@ -26,7 +11,7 @@ blocks:
       textStyles: text-accent4 mg-copy-medium mb-24
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/bg-mountain-dots.png
+      src: /uploads/test.png
     image:
       src: /uploads/logo-sbs-earth-vert-light.svg
     label: ''
@@ -101,6 +86,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
