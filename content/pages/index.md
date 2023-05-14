@@ -11,7 +11,7 @@ blocks:
       textStyles: text-accent4 mg-copy-medium mb-24
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/test.png
+      src: ''
     image:
       src: /uploads/logo-sbs-earth-vert-light.svg
     label: ''
@@ -86,6 +86,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
