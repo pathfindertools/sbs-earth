@@ -1,7 +1,7 @@
 ---
 blocks:
   - style:
-      alignment: 'flex-row-reverse items-center '
+      alignment: 'flex-row items-center '
       padding: pt-20 pb-20 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
@@ -36,11 +36,12 @@ blocks:
         link: 'https://github.com/pathfindertools/microgen'
         buttonStyle: primary
     _template: feature
-backgroundColor: gray-dark
+backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
