@@ -2,16 +2,16 @@
 name: Microgen
 desktopWidth: '1100'
 colors:
-  primary: '#417C42'
-  accent1: '#B8DD2F'
-  accent2: '#40DBFF'
-  accent3: '#DBEDF9'
+  primary: '#0066FF'
+  accent1: '#99FF00'
+  accent2: '#12DA00'
+  accent3: '#00FFFF'
   accent4: '#F5F9FE'
   white: '#FFFFFF'
   grayLight: '#E8E8EF'
   gray: '#B0B0BF'
   grayDark: '#7B7A80'
-  black: '#1A1A1A'
+  black: '#0C0C0C'
 typo:
   - label: Copy Small
     typography: >-
@@ -48,6 +48,7 @@ buttons:
     primaryRounded: rounded
 linkColor: accent1
 ---
+
 
 
 
