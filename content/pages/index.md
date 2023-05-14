@@ -38,6 +38,7 @@ blocks:
     body: ''
     buttons:
       - label: Submit a proposal
+        link: 'https://airtable.com/shrDMbSOehx2XDiho'
         buttonStyle: primary
     _template: feature
   - style:
@@ -95,6 +96,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
