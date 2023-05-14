@@ -11,15 +11,14 @@ blocks:
       textStyles: text-accent4 mg-copy-medium mb-24
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/bg-mountain-dots-2.svg
+      src: /uploads/hero-top-right-temp.png
       position: object-top
     image:
       src: /uploads/logo-sbs-earth-vert-light.svg
     label: ''
     headline: ''
     subhead: ''
-    body: |
-      ![](/uploads/sbs-details.svg)
+    body: ''
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
@@ -87,6 +86,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
