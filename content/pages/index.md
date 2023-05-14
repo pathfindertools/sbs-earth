@@ -18,13 +18,16 @@ blocks:
     headline: ''
     subhead: ''
     body: |
-      ![](/uploads/sbs-details.svg)
+      ```javascript
+      <<p style = "background-image: url('img_girl.jpg');" >
+      ```
     _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
