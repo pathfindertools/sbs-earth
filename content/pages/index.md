@@ -81,23 +81,15 @@ blocks:
       This pioneering event unites industry leaders, innovators, and
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
-
-
-      Engage with inspiring keynotes and interactive panels of global experts,
-      and discover how sustainable blockchain solutions can reshape our future.
-
-
-      Register now for this virtual adventure and join the movement to harness
-      blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
   - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-20 pr-20 pl-20
       featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
     cardStyle:
       fillStyles: ' opacity-100'
       grid: grid-cols-2 justify-start gap-6
@@ -127,14 +119,15 @@ blocks:
           Register now for this virtual adventure and join the movement to
           harness blockchain's potential for a cleaner, more sustainable
           tomorrow.
-      - headline: Headline
-        subhead: Subhead
+      - headline: ''
+        subhead: ''
     _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
