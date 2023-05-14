@@ -34,8 +34,11 @@ blocks:
       src: /uploads/bg-dots.svg
     headline: Headline
     subhead: Subhead
+    body: ''
     buttons:
       - label: Register
+        buttonStyle: primary
+      - label: Submit a proposal
         buttonStyle: primary
     _template: feature
 backgroundColor: accent4
@@ -43,6 +46,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
