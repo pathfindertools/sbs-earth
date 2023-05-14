@@ -34,12 +34,16 @@ blocks:
       src: /uploads/bg-dots.svg
     headline: Headline
     subhead: Subhead
+    buttons:
+      - label: Register
+        buttonStyle: primary
     _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
