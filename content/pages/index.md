@@ -2,7 +2,7 @@
 blocks:
   - style:
       alignment: 'flex-row items-center '
-      padding: pt-20 pb-20 pr-10 pl-10
+      padding: pt-20 pb-0 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-accent2 mg-headline-small '
@@ -44,6 +44,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
