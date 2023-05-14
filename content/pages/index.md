@@ -91,29 +91,51 @@ blocks:
       blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
   - style:
-      alignment: 'flex-row-reverse items-center '
-      padding: pt-20 pb-20 pr-10 pl-14
-      featureImage: '  mx-auto'
-      featureContent: w-full min-h-0 text-left
+      alignment: flex-col-reverse items-start gap-6
+      padding: pt-20 pb-20 pr-20 pl-20
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    cardStyle:
+      fillStyles: ' opacity-100'
+      grid: grid-cols-2 justify-start gap-6
+      alignment: flex-row-reverse items-start  text-left
+      image: '  object-center object-fill'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-2 pb-2 pr-2 pl-2
+      borderStyles: border-white border-0
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
+    label: ''
     headline: ''
     subhead: ''
-    body: >
-      Engage with inspiring keynotes and interactive panels of global experts,
-      and discover how sustainable blockchain solutions can reshape our future.
+    items:
+      - headline: ''
+        subhead: ''
+        body: >
+          Engage with inspiring keynotes and interactive panels of global
+          experts, and discover how sustainable blockchain solutions can reshape
+          our future.
 
 
-      Register now for this virtual adventure and join the movement to harness
-      blockchain's potential for a cleaner, more sustainable tomorrow.
-    _template: feature
+          Register now for this virtual adventure and join the movement to
+          harness blockchain's potential for a cleaner, more sustainable
+          tomorrow.
+      - headline: Headline
+        subhead: Subhead
+    _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
