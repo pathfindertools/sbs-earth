@@ -81,6 +81,14 @@ blocks:
       This pioneering event unites industry leaders, innovators, and
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
+
+
+      Engage with inspiring keynotes and interactive panels of global experts,
+      and discover how sustainable blockchain solutions can reshape our future.
+
+
+      Register now for this virtual adventure and join the movement to harness
+      blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
@@ -106,6 +114,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
