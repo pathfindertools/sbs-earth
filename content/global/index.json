@@ -4,8 +4,9 @@
   "fathomSiteId": "",
   "theme": "content/themes/microgen.md",
   "logo": {
-    "logoTypeStyle": "",
-    "image": ""
+    "logoType": "SBS Earth",
+    "logoTypeStyle": "undefined undefined ",
+    "image": "/uploads/logo-sbs-earth-vert-light.svg"
   },
   "nav": {
     "navAlignment": "text-right",
