@@ -81,58 +81,21 @@ blocks:
       This pioneering event unites industry leaders, innovators, and
       sustainability enthusiasts to explore the power of blockchain in promoting
       a greener and more equitable world.
-    _template: feature
-  - style:
-      alignment: flex-col-reverse items-start gap-6
-      padding: pt-20 pb-20 pr-20 pl-20
-      featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
-    cardStyle:
-      fillStyles: ' opacity-100'
-      grid: grid-cols-2 justify-start gap-6
-      alignment: flex-row-reverse items-start  text-left
-      image: '  object-center object-fill'
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      contentPadding: pt-2 pb-2 pr-2 pl-2
-      borderStyles: border-white border-0
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
-      buttonLayout: undefined
-      buttonWidth: undefined
-    label: ''
-    headline: >-
+
+
       Engage with inspiring keynotes and interactive panels of global experts,
-      and discover how sustainable blockchain solutions can reshape our future. 
+      and discover how sustainable blockchain solutions can reshape our future.
+
+
       Register now for this virtual adventure and join the movement to harness
       blockchain's potential for a cleaner, more sustainable tomorrow.
-    subhead: ''
-    body: ''
-    items:
-      - headline: ''
-        subhead: ''
-        body: >
-          Engage with inspiring keynotes and interactive panels of global
-          experts, and discover how sustainable blockchain solutions can reshape
-          our future.
-
-
-          Register now for this virtual adventure and join the movement to
-          harness blockchain's potential for a cleaner, more sustainable
-          tomorrow.
-      - headline: ''
-        subhead: ''
-        body: ''
-    _template: cards
+    _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
