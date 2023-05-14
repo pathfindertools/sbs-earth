@@ -19,7 +19,7 @@ blocks:
     headline: ''
     subhead: ''
     body: |
-      ![](/uploads/hero-top-right-temp.png)
+      ![](/uploads/hero-top-right-temp3.png)
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
@@ -60,10 +60,10 @@ blocks:
         buttonStyle: primary
     _template: feature
   - style:
-      alignment: 'flex-row items-center '
+      alignment: flex-row items-start gap-12
       padding: pt-20 pb-48 pr-10 pl-10
       featureImage: wpx-420  mx-auto
-      featureContent: w-1/5 min-h-0 text-left
+      featureContent: w-2/5 min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
@@ -73,8 +73,8 @@ blocks:
       src: /uploads/bg-dots.svg
     image:
       src: /uploads/quote-minds.svg
-    headline: Headline
-    subhead: Subhead
+    headline: ''
+    subhead: ''
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -87,6 +87,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
