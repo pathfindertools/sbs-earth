@@ -58,6 +58,8 @@ blocks:
     body: ''
     buttons:
       - label: Register
+        link: >-
+          https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
         buttonStyle: primary
     _template: feature
   - style:
@@ -108,6 +110,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
