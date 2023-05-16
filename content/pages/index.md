@@ -19,7 +19,7 @@ blocks:
     headline: ''
     subhead: ''
     body: |
-      ![](/uploads/hero-top-right-temp4.png)
+      ![](/uploads/hero-top-right-trim.svg)
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
@@ -105,12 +105,14 @@ blocks:
       src: /uploads/bg-dots.svg
     headline: ''
     subhead: ''
+    body: ''
     _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
