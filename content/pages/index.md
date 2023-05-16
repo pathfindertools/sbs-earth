@@ -147,6 +147,7 @@ blocks:
     label: ''
     headline: ''
     subhead: ''
+    body: ''
     items:
       - headline: ''
         subhead: ''
@@ -159,12 +160,17 @@ blocks:
           now](https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357)
           for this virtual adventure and join the movement to harness
           blockchain's potential for a cleaner, more sustainable tomorrow.
+      - body: >
+          More details coming soon! [Sign
+          up](https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit) for
+          updates.
     _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
