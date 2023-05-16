@@ -23,27 +23,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: pt-0 pb-4 pr-4 pl-10
-      featureImage: '  mx-auto'
-      featureContent: w-4/5 min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black undefined undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
-    background:
-      fillStyles: ' opacity-100'
-      src: /uploads/bg-dots.svg
-    headline: ''
-    subhead: ''
-    body: ''
-    buttons:
-      - label: Submit a proposal
-        link: 'https://airtable.com/shrDMbSOehx2XDiho'
-        buttonStyle: primary
-    _template: feature
-  - style:
-      alignment: 'flex-row-reverse items-center '
-      padding: pt-5 pb-4 pr-4 pl-10
+      padding: pt-0 pb-8 pr-4 pl-10
       featureImage: '  mx-auto'
       featureContent: w-4/5 min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -60,6 +40,26 @@ blocks:
       - label: Register
         link: >-
           https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
+        buttonStyle: primary
+    _template: feature
+  - style:
+      alignment: 'flex-row-reverse items-center '
+      padding: pt-0 pb-4 pr-4 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-4/5 min-h-0 text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      fillStyles: ' opacity-100'
+      src: /uploads/bg-dots.svg
+    headline: ''
+    subhead: ''
+    body: ''
+    buttons:
+      - label: Submit a proposal
+        link: 'https://airtable.com/shrDMbSOehx2XDiho'
         buttonStyle: primary
     _template: feature
   - style:
@@ -110,6 +110,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
