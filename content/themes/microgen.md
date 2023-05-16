@@ -42,12 +42,13 @@ buttons:
   - label: Primary
     fill: bg-primary opacity-100
     typography: >-
-      {"color":"white","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
-    padding: pt-3.5 pb-3.5 pr-3.5 pl-3.5
+      {"color":"white","family":"Inter:wght@400","size":"15","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+    padding: pt-6 pb-6 pr-6 pl-6
     primaryBorder: border-primary border-0
     primaryRounded: rounded-none
 linkColor: accent1
 ---
+
 
 
 
