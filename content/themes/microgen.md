@@ -18,7 +18,7 @@ typo:
       {"family":"Inter:wght@400","size":"13","lineHeight":"26","letterSpacing":"1","margin":"0","smSize":"12","smLineHeight":"16","smLetterSpacing":"0","smMargin":"0"}
   - label: Copy Medium
     typography: >-
-      {"family":"Inter:wght@400","size":"20","lineHeight":"34","letterSpacing":"0","margin":"34","smSize":"15","smLineHeight":"24","smLetterSpacing":"0","smMargin":"0"}
+      {"family":"Inter:wght@400","size":"20","lineHeight":"34","letterSpacing":"0","margin":"0","smSize":"15","smLineHeight":"24","smLetterSpacing":"0","smMargin":"0"}
   - label: Copy Large
     typography: >-
       {"family":"Inter:wght@400","size":"21","lineHeight":"36","letterSpacing":"0","margin":"0","smSize":"21","smLineHeight":"36","smLetterSpacing":"0","smMargin":"0"}
@@ -42,12 +42,13 @@ buttons:
   - label: Primary
     fill: bg-primary opacity-100
     typography: >-
-      {"color":"white","family":"Inter:wght@400","size":"15","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+      {"color":"white","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
     padding: pt-6 pb-6 pr-6 pl-6
     primaryBorder: border-primary border-0
     primaryRounded: rounded-none
 linkColor: accent1
 ---
+
 
 
 
