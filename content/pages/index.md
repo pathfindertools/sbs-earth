@@ -101,11 +101,29 @@ blocks:
     subhead: ''
     body: ''
     _template: feature
+  - style:
+      alignment: 'flex-row-reverse items-center '
+      padding: pt-0 pb-20 pr-96 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-3/5 min-h-0 text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      fillStyles: ' opacity-100'
+      src: /uploads/bg-dots.svg
+    image:
+      src: /uploads/grid-graphic-a.svg
+    headline: ''
+    subhead: ''
+    _template: feature
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
