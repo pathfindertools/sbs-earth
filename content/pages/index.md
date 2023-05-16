@@ -14,7 +14,7 @@ blocks:
       src: /uploads/bg-dots.svg
       position: object-top
     image:
-      src: /uploads/logo-sbs-earth-vert-light.svg
+      src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
     headline: ''
     subhead: ''
@@ -110,6 +110,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
