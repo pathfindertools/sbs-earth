@@ -73,7 +73,7 @@ blocks:
       fillStyles: ' opacity-100'
       src: /uploads/bg-dots.svg
     image:
-      src: /uploads/quote-minds.svg
+      src: /uploads/quote.svg
     headline: ''
     subhead: ''
     body: >
@@ -112,6 +112,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
