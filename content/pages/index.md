@@ -193,14 +193,16 @@ blocks:
         body: ''
         link: 'https://paris22.sbs.tech/'
       - headline: SBS SXSW
+        body: ''
         link: >-
           https://www.youtube.com/playlist?list=PL_0VrY55uV1_aJWwOGFchnpgzm3rdQbaQ
     _template: cards
 backgroundColor: accent4
 meta:
-  title: 'SBS Earth | August 15, 2023'
+  title: 'SBS Earth | August 16, 2023'
   description: ''
 ---
+
 
 
 
