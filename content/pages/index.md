@@ -201,7 +201,9 @@ backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 16, 2023'
   description: ''
+  ogImage: /uploads/meta.png
 ---
+
 
 
 
