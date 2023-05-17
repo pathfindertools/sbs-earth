@@ -187,9 +187,13 @@ blocks:
       textStyles: text-black undefined undefined
       buttonLayout: undefined
       buttonWidth: undefined
+    background:
+      fillStyles: ' opacity-100'
+      src: /uploads/bg-dots.svg
     label: ''
     headline: Previous SBS Events
     subhead: ''
+    body: ''
     items:
       - headline: SBS Boston
         subhead: ''
@@ -201,6 +205,7 @@ blocks:
         link: 'https://latam22.sbs.tech/'
       - headline: SBS Paris
         subhead: ''
+        body: ''
         link: 'https://paris22.sbs.tech/'
     _template: cards
 backgroundColor: accent4
@@ -208,6 +213,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
