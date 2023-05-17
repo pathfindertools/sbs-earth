@@ -165,11 +165,44 @@ blocks:
           up](https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit) for
           updates.
     _template: cards
+  - style:
+      alignment: flex-col-reverse items-start gap-6
+      padding: pt-20 pb-20 pr-20 pl-20
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    cardStyle:
+      fillStyles: bg-gray
+      grid: grid-cols-3 justify-start gap-6
+      alignment: flex-row items-start  text-left
+      image: object-center object-fill
+      imagePadding: pt-0 pr-0 pb-0 pl-0
+      contentPadding: pt-2 pr-2 pb-2 pl-2
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    label: ''
+    headline: ''
+    subhead: ''
+    items:
+      - headline: ''
+        subhead: ''
+        body: |
+          [SBS Boston](https://sbs.tech/)
+      - headline: Headline
+        subhead: Subhead
+      - headline: Headline
+        subhead: Subhead
+    _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
