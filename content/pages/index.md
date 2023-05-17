@@ -86,24 +86,8 @@ blocks:
     body: ''
     _template: feature
   - style:
-      alignment: flex-row items-center gap-0
-      padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: mx-auto
-      featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
-    background:
-      fillStyles: ' opacity-100'
-      src: /uploads/bg-dots.svg
-    headline: ''
-    subhead: ''
-    body: ''
-    _template: feature
-  - style:
       alignment: 'flex-row-reverse items-center '
-      padding: pt-0 pb-20 pr-96 pl-10
+      padding: pt-28 pb-20 pr-96 pl-10
       featureImage: '  mx-auto'
       featureContent: w-3/5 min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -114,7 +98,8 @@ blocks:
       fillStyles: ' opacity-100'
       src: /uploads/bg-dots.svg
     image:
-      src: /uploads/grid-graphic-a.svg
+      src: /uploads/grid-graphic-b.svg
+    label: ''
     headline: ''
     subhead: ''
     body: ''
@@ -213,6 +198,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
