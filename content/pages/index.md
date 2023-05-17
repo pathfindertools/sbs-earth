@@ -169,39 +169,46 @@ blocks:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-20 pr-20 pl-20
       featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-copy-small undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
     cardStyle:
-      fillStyles: bg-gray
-      grid: grid-cols-3 justify-start gap-6
+      fillStyles: ' opacity-100'
+      grid: grid-cols-6 justify-start gap-6
       alignment: flex-row items-start  text-left
-      image: object-center object-fill
-      imagePadding: pt-0 pr-0 pb-0 pl-0
-      contentPadding: pt-2 pr-2 pb-2 pl-2
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      image: '  object-center object-fill'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-2 pb-2 pr-2 pl-2
+      borderStyles: border-white border-0
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+      buttonLayout: undefined
+      buttonWidth: undefined
     label: ''
-    headline: ''
+    headline: Previous SBS Events
     subhead: ''
     items:
-      - headline: ''
+      - headline: SBS Boston
         subhead: ''
-        body: |
-          [SBS Boston](https://sbs.tech/)
-      - headline: Headline
-        subhead: Subhead
-      - headline: Headline
-        subhead: Subhead
+        body: ''
+        link: 'https://sbs.tech/'
+      - headline: SBS LATAM
+        subhead: ''
+        body: ''
+        link: 'https://latam22.sbs.tech/'
+      - headline: SBS Paris
+        subhead: ''
+        link: 'https://paris22.sbs.tech/'
     _template: cards
 backgroundColor: accent4
 meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
