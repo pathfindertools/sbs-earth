@@ -183,7 +183,7 @@ blocks:
       - headline: SBS Boston
         subhead: ''
         body: ''
-        link: 'https://sbs.tech/'
+        link: 'https://boston23.sbs.tech/'
       - headline: SBS LATAM
         subhead: ''
         body: ''
@@ -203,6 +203,7 @@ meta:
   description: ''
   ogImage: /uploads/meta.png
 ---
+
 
 
 
