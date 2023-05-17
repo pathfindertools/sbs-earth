@@ -168,7 +168,7 @@ blocks:
   - style:
       alignment: flex-col-reverse items-start gap-6
       padding: pt-20 pb-20 pr-20 pl-20
-      featureContent: w-1/2 min-h-0 text-left
+      featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-copy-small undefined
       subheadStyles: text-black undefined undefined
@@ -208,6 +208,7 @@ meta:
   title: 'SBS Earth | August 15, 2023'
   description: ''
 ---
+
 
 
 
