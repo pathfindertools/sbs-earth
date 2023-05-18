@@ -43,11 +43,12 @@ buttons:
     fill: bg-primary opacity-100
     typography: >-
       {"color":"white","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
-    padding: pt-5 pb-5 pr-5 pl-5
+    padding: pt-4 pb-4 pr-4 pl-4
     primaryBorder: border-primary border-0
-    primaryRounded: rounded-sm
+    primaryRounded: rounded
 linkColor: accent1
 ---
+
 
 
 
