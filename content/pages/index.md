@@ -23,7 +23,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
-      padding: pt-0 pb-8 pr-4 pl-10
+      padding: pt-0 pb-8 pr-9 pl-10
       featureImage: '  mx-auto'
       featureContent: w-4/5 min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -41,6 +41,9 @@ blocks:
         link: >-
           https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
         buttonStyle: primary
+      - label: Submit a proposal
+        link: 'https://airtable.com/shrDMbSOehx2XDiho'
+        buttonStyle: primary
     _template: feature
   - style:
       alignment: 'flex-row-reverse items-center '
@@ -57,10 +60,6 @@ blocks:
     headline: ''
     subhead: ''
     body: ''
-    buttons:
-      - label: Submit a proposal
-        link: 'https://airtable.com/shrDMbSOehx2XDiho'
-        buttonStyle: primary
     _template: feature
   - style:
       alignment: flex-row items-start gap-12
@@ -203,6 +202,7 @@ meta:
   description: ''
   ogImage: /uploads/meta.png
 ---
+
 
 
 
