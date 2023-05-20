@@ -28,7 +28,7 @@ blocks:
       alignment: flex-col items-start gap-28
       padding: pt-0 pb-0 pr-8 pl-8
       featureImage: '  mr-auto'
-      featureContent: w-1/2 min-h-0 text-left
+      featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-hidden undefined
       subheadStyles: text-black undefined undefined
@@ -146,6 +146,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
