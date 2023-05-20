@@ -2,7 +2,7 @@
 blocks:
   - style:
       alignment: 'flex-row items-center '
-      padding: pt-7 pb-7 pr-10 pl-10
+      padding: pt-7 pb-7 pr-8 pl-8
       featureImage: '  mx-auto'
       featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-accent3 mg-headline-small '
@@ -26,7 +26,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col items-start gap-28
-      padding: pt-0 pb-0 pr-10 pl-10
+      padding: pt-0 pb-0 pr-8 pl-8
       featureImage: '  mr-auto'
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -52,7 +52,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-row items-start gap-20 sm:flex-col sm:items-start sm:gap-12'
-      padding: 'pt-32 pb-32 pr-24 pl-24 sm:pt-24 sm:pb-32 sm:pr-14 sm:pl-14'
+      padding: 'pt-32 pb-32 pr-24 pl-24 sm:pt-24 sm:pb-32 sm:pr-8 sm:pl-8'
       featureImage: '  mx-auto'
       featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
@@ -79,7 +79,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center '
-      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-20 sm:pb-10 sm:pr-14 sm:pl-14'
+      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-20 sm:pb-10 sm:pr-8 sm:pl-8'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -108,7 +108,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center  sm:flex-row-reverse sm:items-center sm:'
-      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-14 sm:pb-14 sm:pr-14 sm:pl-14'
+      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-14 sm:pb-14 sm:pr-8 sm:pl-8'
       featureImage: '  mx-auto'
       featureContent: 'w-full min-h-0 text-left sm:w-3/5 sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
@@ -146,6 +146,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
