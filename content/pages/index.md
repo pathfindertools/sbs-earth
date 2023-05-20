@@ -108,7 +108,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center  sm:flex-row-reverse sm:items-center sm:'
-      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-14 sm:pb-8 sm:pr-8 sm:pl-8'
+      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-8 sm:pb-8 sm:pr-8 sm:pl-8'
       featureImage: '  mx-auto'
       featureContent: 'w-full min-h-0 text-left sm:w-3/5 sm:min-h-0 sm:text-left'
       labelStyles: text-black undefined undefined
@@ -146,6 +146,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
