@@ -4,8 +4,7 @@
   "fathomSiteId": "",
   "theme": "content/themes/microgen.md",
   "logo": {
-    "logoType": "",
-    "logoTypeStyle": "undefined undefined ",
+    "logoTypeStyle": "",
     "image": ""
   },
   "nav": {
@@ -13,5 +12,6 @@
     "navTypeStyle": "text-accent2 mg-body-sm ",
     "navBackgroundColor": " opacity-100",
     "padding": "pt-7 pb-10 pr-10 pl-8"
-  }
+  },
+  "favicon": "/uploads/sbs-earth-favicon.png"
 }

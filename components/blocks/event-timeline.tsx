@@ -1,9 +1,6 @@
 import React from "react";
+import { dateRangeString } from '../../helpers/utilities';
 import { Section } from "../section";
-import { minHeightOptions } from "../../schema/options"
-import { backgroundSchema } from "../../schema/background"
-import { navigationLabelSchema } from "../../schema/navigation-label";
-import { typographySchema } from "../../schema/typography"
 import { trackGoal } from "fathom-client";
 
 const IconLink = ({width="12"}) => {
@@ -52,10 +49,9 @@ export const EventTimeline = ({ data, events, parentField = "" }) => {
           (
           <div className="relative max-w-desktop-full mx-auto border-l border-primary mb-10 ml-60">
             {sortedEvents && sortedEvents.map((event, index) => {
-              const startDate = new Date(event.startDate)
-              const endDate = new Date(event.endDate)
+              const startDate = new Date(event.date)
               const startMonth = months[startDate?.getMonth()]
-              const date = event.dateTBD === true ? 'Date TBD' : `${startDate.toLocaleDateString()} - ${endDate.toLocaleDateString()}`
+              const date = event.date ? `${dateRangeString(event.date, event.days)}` : 'Date TBD'
               const hideMonthLabel = labels.includes(startMonth)
               if (!hideMonthLabel) {
                 labels = [...labels, startMonth]
@@ -72,17 +68,21 @@ export const EventTimeline = ({ data, events, parentField = "" }) => {
                     </p>
                   }
                   <h2 className={`${styles.headlineStyles}`} data-tinafield={`${parentField}.headline`}>
-                    <EventTimelineHeadline name={event.eventName} website={event.website} fathomId={data.fathomId} />
+                    <EventTimelineHeadline name={event.name} website={event.website} fathomId={data.fathomId} />
                   </h2>
-                  {event.location &&
+                  {event.venueName && 
                     <h4 className={`${styles.subheadStyles}`} data-tinafield={`${parentField}.subhead`}>
-                      {event.location}
+                      {event.venueName}
                     </h4>
                   }
-                  {event.tag &&
-                    <span className={`bg-gray inline-block px-3 py-1 rounded-full relative -top-2 ${styles.textStyles}`}>
-                      {event.tag}
-                    </span>
+                  {event.tags &&
+                    <div className="event-tags">
+                      {event.tags?.map((tag, index) => (
+                        <span className={`bg-gray inline-block px-3 py-1 mr-2 rounded-full relative -top-2 ${styles.textStyles}`} key={index}>
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
                   }
                 </div>
               )
@@ -93,65 +93,4 @@ export const EventTimeline = ({ data, events, parentField = "" }) => {
       </div>
     </Section>
   );
-};
-
-export const eventTimelineBlockSchema: any = {
-  label: "Event Timeline",
-  name: "eventTimeline",
-  ui: {
-    defaultItem: {
-      headline: "Headline",
-      subhead: "Subhead",
-      style: {
-        fullWidth: false,
-        minHeight: "min-h-0",
-        padding: "pt-20 pb-20 pr-10 pl-10",
-        labelStyles: "text-black",
-        headlineStyles: "text-black",
-        subheadStyles: "text-black mb-4",
-        textStyles: "text-black",
-      },
-    },
-  },
-  fields: [
-    {
-      label: "Section Style",
-      name: "style",
-      type: "object",
-      fields: [
-        {
-          label: "Full Width",
-          name: "fullWidth",
-          type: "boolean",
-        },
-        {
-          label: "Minimum Height",
-          name: "minHeight",
-          type: "string",
-          ui: {
-            component: "selectField",
-            mobileMode: true,
-          },
-          options: minHeightOptions,
-        },
-        {
-          label: "Padding",
-          name: "padding",
-          type: "string",
-          ui: {
-            component: "paddingControl",
-          }
-        },
-        ...typographySchema,
-      ],
-    },
-    backgroundSchema,
-    {
-      label: "Fathom Tracking ID",
-      name: "fathomId",
-      description: "If fathom is installed you can add an id and track event clicks",
-      type: "string",
-    },
-    navigationLabelSchema,
-  ],
 };

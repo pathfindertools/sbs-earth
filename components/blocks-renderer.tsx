@@ -5,6 +5,7 @@ import { Accordian } from "./blocks/accordian";
 import { Embed } from "./blocks/embed";
 import { TailwindFeature } from "./blocks/tailwind-feature";
 import { TailwindCards } from "./blocks/tailwind-cards";
+import { EventSchedule } from "./blocks/event-schedule";
 import { EventTimeline } from "./blocks/event-timeline";
 
 export const Blocks = (props: any) => {
@@ -19,7 +20,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Feature data={block} parentField={`blocks.${i}`} />
+                    <Feature data={block} />
                   </div>
                 );
               case "PageBlocksCards":
@@ -28,7 +29,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Cards data={block} parentField={`blocks.${i}`} />
+                    <Cards data={block} />
                   </div>
                 );
               case "PageBlocksAccordian":
@@ -37,7 +38,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Accordian data={block} parentField={`blocks.${i}`} />
+                    <Accordian data={block} />
                   </div>
                 );
               case "PageBlocksEmbed":
@@ -46,7 +47,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Embed data={block} parentField={`blocks.${i}`} />
+                    <Embed data={block} />
                   </div>
                 );
               case "PageBlocksTailwindFeature":
@@ -55,7 +56,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <TailwindFeature data={block} parentField={`blocks.${i}`} />
+                    <TailwindFeature data={block} />
                   </div>
                 );
               case "PageBlocksTailwindCards":
@@ -64,7 +65,16 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <TailwindCards data={block} parentField={`blocks.${i}`} />
+                    <TailwindCards data={block} />
+                  </div>
+                );
+              case "PageBlocksEventSchedule":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <EventSchedule data={block} events={props.events as any} />
                   </div>
                 );
               case "PageBlocksEventTimeline":
@@ -73,7 +83,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <EventTimeline data={block} events={props.events} parentField={`blocks.${i}`} />
+                    <EventTimeline data={block} events={props.events} />
                   </div>
                 );
               default:
@@ -87,7 +97,7 @@ export const Blocks = (props: any) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Feature data={block} parentField={`blocks.${i}`} />
+                    <Feature data={block} />
                   </div>
                 );
                 case "GlobalBlocksCards":
@@ -96,7 +106,7 @@ export const Blocks = (props: any) => {
                       data-tinafield={`blocks.${i}`}
                       key={i + block.__typename}
                     >
-                      <Cards data={block} parentField={`blocks.${i}`} />
+                      <Cards data={block} />
                     </div>
                   );
                 case "GlobalBlocksEmbed":
@@ -105,7 +115,7 @@ export const Blocks = (props: any) => {
                       data-tinafield={`blocks.${i}`}
                       key={i + block.__typename}
                     >
-                      <Embed data={block} parentField={`blocks.${i}`} />
+                      <Embed data={block} />
                     </div>
                   );
                 case "GlobalBlocksTailwindFeature":
@@ -114,7 +124,7 @@ export const Blocks = (props: any) => {
                       data-tinafield={`blocks.${i}`}
                       key={i + block.__typename}
                     >
-                      <TailwindFeature data={block} parentField={`blocks.${i}`} />
+                      <TailwindFeature data={block} />
                     </div>
                   );
                 case "GlobalBlocksTailwindCards":
@@ -123,7 +133,7 @@ export const Blocks = (props: any) => {
                       data-tinafield={`blocks.${i}`}
                       key={i + block.__typename}
                     >
-                      <TailwindCards data={block} parentField={`blocks.${i}`} />
+                      <TailwindCards data={block} />
                     </div>
                   );
             }

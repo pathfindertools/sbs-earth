@@ -1,7 +1,7 @@
 import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../components/layout";
-import { client } from "../.tina/__generated__/client";
+import { client } from "../tina/__generated__/client";
 
 export default function IndexPage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
@@ -14,16 +14,7 @@ export default function IndexPage(
   const eventsData = props.events.eventConnection.edges
   const eventList = eventsData.map(event => {
     return (
-      {
-        eventName: event.node?.eventName,
-        website: event.node?.website,
-        location: event.node?.location,
-        startDate: event.node?.startDate,
-        endDate: event.node?.endDate,
-        dateTBD: event.node?.dateTBD,
-        dri: event.node?.dri,
-        tag: event.node?.tag,
-      }
+      { ...event.node }
     )
   })
 
