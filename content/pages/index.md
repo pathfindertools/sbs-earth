@@ -123,7 +123,7 @@ blocks:
     body: ''
     buttons:
       - label: SBS Boston
-        link: 'https://sbs.tech/'
+        link: 'https://boston23.sbs.tech'
         buttonStyle: footer-link
       - label: SBS LATAM
         link: 'https://latam22.sbs.tech/'
@@ -146,6 +146,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
