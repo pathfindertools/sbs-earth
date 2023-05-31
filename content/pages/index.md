@@ -72,7 +72,7 @@ blocks:
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy-large undefined
+      textStyles: text-white mg-copy-large mb-3.5
     background:
       fillStyles: ' opacity-100'
       src: /uploads/lead-in-background.jpg
@@ -97,13 +97,13 @@ blocks:
       subheadStyles: text-white undefined undefined
       textStyles: text-white undefined undefined
     cardStyle:
-      fillStyles: bg-white opacity-100
-      fillStylesActive: bg-gray-light opacity-100
-      padding: pt-4 pr-4 pb-4 pl-4
+      fillStyles: ' opacity-100'
+      fillStylesActive: ' opacity-100'
+      padding: pt-5 pb-5 pr-0 pl-0
       borderStyles: border-gray border-1
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      headlineStyles: text-white mg-headline-small mb-0
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white mg-copy mb-0
     background:
       style: bg-cover
       position: bg-center
