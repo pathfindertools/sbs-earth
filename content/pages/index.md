@@ -1,46 +1,60 @@
 ---
 blocks:
   - style:
-      alignment: 'flex-row items-center '
-      padding: pt-7 pb-7 pr-10 pl-10
-      featureImage: '  mx-auto'
-      featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      alignment: 'flex-row items-start '
+      padding: pt-11 pb-0 pr-10 pl-8
+      featureImage: wpx-132 hpx-200 mr-auto
+      featureContent: w-1/2 min-h-0 text-right
       labelStyles: 'text-accent3 mg-headline-small '
-      headlineStyles: 'text-accent3 mg-headline-small '
+      headlineStyles: 'text-white mg-copy '
       subheadStyles: 'text-white mg-headline-small '
-      textStyles: 'text-accent3 mg-headline-small '
+      textStyles: 'text-white mg-headline-small '
     background:
       fillStyles: ' opacity-100'
       src: ''
       style: bg-repeat
       position: bg-center
       ornaments:
-        - src: /uploads/hero-top-right-globe.svg
-          alignment: top
-          xOffset: '100'
+        - src: /uploads/hero-blob.png
+          alignment: center
+          width: '600'
+          xOffset: '-600'
+          yOffset: '0'
+        - src: /uploads/hero-earth.png
+          alignment: center
+          xOffset: '500'
+          yOffset: '400'
+    image:
+      src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
     headline: The Sustainable Blockchain Summit
-    subhead: 'August 16,2023'
-    body: |
-      Virtual
+    subhead: ''
+    body: ''
     _template: feature
   - style:
-      alignment: flex-col items-start gap-28
-      padding: pt-0 pb-0 pr-10 pl-10
+      alignment: flex-col items-start gap-4
+      padding: pt-10 pb-14 pr-10 pl-10
       featureImage: '  mr-auto'
-      featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black mg-hidden undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
+      featureContent: w-2/3 min-h-0 text-left
+      labelStyles: text-accent3 mg-copy mb-2.5
+      headlineStyles: text-white mg-headline-large undefined
+      subheadStyles: text-white mg-headline-medium mb-20
+      textStyles: text-white mg-copy-small mb-12
     background:
+      fillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
     image:
-      src: /uploads/logo-sbs-earth-vert-light-tall.svg
-    headline: SBS Earth
-    subhead: ''
-    body: ''
+      src: /uploads/virtual-label.svg
+    label: ''
+    headline: Join us to shape a sustainable  future
+    subhead: 'August XX, 2023'
+    body: >
+      Welcome to the inaugural virtual Sustainable Blockchain Summit, where
+      technology meets sustainability in a groundbreaking digital experience!
+      This pioneering event unites industry leaders, innovators, and
+      sustainability enthusiasts to explore the power of blockchain in promoting
+      a greener and more equitable world.
     buttons:
       - label: Register
         link: >-
@@ -51,42 +65,17 @@ blocks:
         buttonStyle: primary
     _template: feature
   - style:
-      alignment: 'flex-row items-start gap-20 sm:flex-col sm:items-start sm:gap-12'
-      padding: 'pt-32 pb-32 pr-24 pl-24 sm:pt-24 sm:pb-32 sm:pr-14 sm:pl-14'
-      featureImage: '  mx-auto'
-      featureContent: 'w-2/5 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-black mg-hidden undefined
-      subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy undefined
-    background:
-      fillStyles: ' opacity-100'
-      style: bg-cover
-      position: bg-center
-      ornaments:
-        - src: /uploads/grid-graphic-b.svg
-          alignment: bottom
-    image:
-      src: /uploads/quote.svg
-    headline: Join us to help shape a sustainable future
-    subhead: ''
-    body: >
-      Welcome to the inaugural virtual Sustainable Blockchain Summit, where
-      technology meets sustainability in a groundbreaking digital experience!
-      This pioneering event unites industry leaders, innovators, and
-      sustainability enthusiasts to explore the power of blockchain in promoting
-      a greener and more equitable world.
-    _template: feature
-  - style:
-      alignment: 'flex-col items-center '
-      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-20 sm:pb-10 sm:pr-14 sm:pl-14'
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-14 pr-20 pl-20
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-black undefined undefined
       subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy undefined
+      textStyles: text-white mg-copy-large undefined
     background:
+      fillStyles: ' opacity-100'
+      src: /uploads/lead-in-background.jpg
       style: bg-cover
       position: bg-center
     headline: ''
@@ -96,16 +85,67 @@ blocks:
       and discover how sustainable blockchain solutions can reshape our future.
 
 
-      [Register
-      now](https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357)
-      for this virtual adventure and join the movement to harness blockchain's
-      potential for a cleaner, more sustainable tomorrow.
-
-
-      More details coming soon! [Sign
-      up](https://mailchi.mp/90fdbff26d90/sustainable-blockchain-summit) for
-      updates.
+      Register now for this virtual adventure and join the movement to harness
+      blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
+  - style:
+      alignment: flex-col-reverse items-center gap-6
+      padding: pt-20 pb-20 pr-10 pl-10
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-white mg-headline-large undefined
+      subheadStyles: text-white undefined undefined
+      textStyles: text-white undefined undefined
+    cardStyle:
+      fillStyles: bg-white opacity-100
+      fillStylesActive: bg-gray-light opacity-100
+      padding: pt-4 pr-4 pb-4 pl-4
+      borderStyles: border-gray border-1
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    background:
+      style: bg-cover
+      position: bg-center
+    label: ''
+    headline: FAQ
+    subhead: ''
+    body: ''
+    items:
+      - headline: Who is it for? Why should I attend?
+        subhead: ''
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+      - headline: Sounds great! How do I participate?
+        subhead: ''
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+      - headline: What does the ticket include?
+        subhead: ''
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+      - headline: Can I organize a side event?
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+      - headline: How do I reach the organizers
+        text: >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
+          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
+          vehicula ut id elit.
+    _template: accordian
   - style:
       alignment: 'flex-col items-center  sm:flex-row-reverse sm:items-center sm:'
       padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-14 sm:pb-14 sm:pr-14 sm:pl-14'
@@ -142,10 +182,27 @@ meta:
   description: ''
 background:
   fillStyles: bg-accent4 opacity-100
-  src: /uploads/dot-grid.png
+  src: /uploads/blue-grain-tile.jpg
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

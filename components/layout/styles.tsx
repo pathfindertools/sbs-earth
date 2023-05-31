@@ -205,7 +205,6 @@ export const styles = (theme) => {
     }
     ${buttonClasses(theme.buttons)}
     ${typographyClasses(theme.typo)}
-    
     @media only screen and (max-width: 700px) {
       html {
         overflow-x: hidden;
