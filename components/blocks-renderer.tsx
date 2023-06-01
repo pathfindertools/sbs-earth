@@ -3,6 +3,7 @@ import { Feature } from "./blocks/feature";
 import { Cards } from "./blocks/cards";
 import { Accordian } from "./blocks/accordian";
 import { Embed } from "./blocks/embed";
+import { Speakers } from "./blocks/speakers";
 import { TailwindFeature } from "./blocks/tailwind-feature";
 import { TailwindCards } from "./blocks/tailwind-cards";
 import { EventSchedule } from "./blocks/event-schedule";
@@ -48,6 +49,15 @@ export const Blocks = (props: any) => {
                     key={i + block.__typename}
                   >
                     <Embed data={block} />
+                  </div>
+                );
+              case "PageBlocksSpeakers":
+                return (
+                  <div
+                    data-tinafield={`blocks.${i}`}
+                    key={i + block.__typename}
+                  >
+                    <Speakers data={block} />
                   </div>
                 );
               case "PageBlocksTailwindFeature":

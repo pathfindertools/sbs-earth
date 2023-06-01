@@ -29,6 +29,7 @@ export const SectionListItemsPlugin = {
         eventSchedule: 'Event Schedule',
         eventTimeline: 'Event Timeline',
         feature: 'Feature',
+        speakers: 'Speakers',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
       }

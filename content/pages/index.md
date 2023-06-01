@@ -89,8 +89,128 @@ blocks:
       blockchain's potential for a cleaner, more sustainable tomorrow.
     _template: feature
   - style:
-      alignment: flex-col-reverse items-center gap-6
+      alignment: flex-col-reverse items-center gap-12
       padding: pt-20 pb-20 pr-10 pl-10
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-white mg-headline-large undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white mg-copy undefined
+    cardStyle:
+      fillStyles: bg-white opacity-100
+      grid: grid-cols-4 justify-start gap-4
+      alignment: flex-col items-center  text-center
+      labelStyles: text-black mg-copy mb-0
+      headlineStyles: text-black mg-copy mb-0
+      subheadStyles: text-black mg-copy-small mb-0
+      textStyles: text-black mg-copy undefined
+    background:
+      style: bg-cover
+      position: bg-center
+    label: ''
+    headline: Previous Speakers
+    subhead: ''
+    body: >
+      Past SBS events have featured a diverse range of speakers, including
+      representatives from the UNFCCC, UNESCO, government officials, legacy
+      energy industry leaders, NGO's and leaders from web3 and ReFi projects.
+      SBS Boston speaker lineup to be announced soon.
+    items:
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+      - image:
+          src: /uploads/avatar.jpg
+        label: First Name
+        headline: Last Name
+        subhead: Title
+        body: ''
+    _template: speakers
+  - style:
+      alignment: 'flex-col items-center '
+      padding: pt-0 pb-0 pr-10 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-hidden undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      style: bg-cover
+      position: bg-center
+    headline: Speak at SBS Earth
+    subhead: ''
+    buttons:
+      - label: Speak at SBS Earth
+        link: /
+        buttonStyle: primary
+    _template: feature
+  - style:
+      alignment: flex-col-reverse items-center gap-6
+      padding: pt-32 pb-20 pr-10 pl-10
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-white mg-headline-large undefined
@@ -186,6 +306,18 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
