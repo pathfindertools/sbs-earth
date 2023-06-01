@@ -98,7 +98,7 @@ blocks:
       textStyles: text-white mg-copy undefined
     cardStyle:
       fillStyles: bg-white opacity-100
-      grid: grid-cols-4 justify-start gap-4
+      grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
       labelStyles: text-black mg-copy mb-0
       headlineStyles: text-black mg-copy mb-0
@@ -306,6 +306,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
