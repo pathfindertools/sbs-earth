@@ -33,12 +33,14 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col items-start gap-4
-      padding: pt-10 pb-14 pr-10 pl-10
+      padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
-      featureContent: w-2/3 min-h-0 text-left
+      featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
-      subheadStyles: text-white mg-headline-medium mb-20
+      subheadStyles: >-
+        text-white mg-headline-medium mb-20 sm:text-white sm:mg-headline-medium
+        sm:mb-10
       textStyles: text-white mg-copy-small mb-12
     background:
       fillStyles: ' opacity-100'
@@ -66,7 +68,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-20 pb-14 pr-20 pl-20
+      padding: 'pt-20 pb-14 pr-20 pl-20 sm:pt-10 sm:pb-9 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
       labelStyles: text-black undefined undefined
@@ -90,7 +92,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-12
-      padding: pt-20 pb-20 pr-10 pl-10
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-white mg-headline-large undefined
@@ -203,6 +205,7 @@ blocks:
       position: bg-center
     headline: Speak at SBS Earth
     subhead: ''
+    body: ''
     buttons:
       - label: Speak at SBS Earth
         link: /
@@ -210,7 +213,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
-      padding: pt-32 pb-20 pr-10 pl-10
+      padding: 'pt-32 pb-20 pr-10 pl-10 sm:pt-16 sm:pb-12 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-white mg-headline-large undefined
@@ -267,6 +270,24 @@ blocks:
           vehicula ut id elit.
     _template: accordian
   - style:
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
+      headlineStyles: text-white mg-headline-large undefined
+    background:
+      fillStyles: ' opacity-100'
+      src: /uploads/bg-sponsors.jpg
+      style: bg-cover
+      position: bg-center
+    sponsors:
+      - src: /uploads/topl.svg
+      - src: /uploads/bacalhau.svg
+      - src: /uploads/topl.svg
+      - src: /uploads/bacalhau.svg
+      - src: /uploads/topl.svg
+    partners:
+      - src: /uploads/protocol.svg
+      - src: /uploads/filecoin-foundation.svg
+    _template: sponsors
+  - style:
       alignment: 'flex-col items-center  sm:flex-row-reverse sm:items-center sm:'
       padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-14 sm:pb-14 sm:pr-14 sm:pl-14'
       featureImage: '  mx-auto'
@@ -306,6 +327,19 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

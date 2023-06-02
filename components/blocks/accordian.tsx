@@ -30,7 +30,7 @@ const AccordianItem = ({ data, index, cardstyle, isLast, parentField = "" }) => 
 
   return (
     <div className={`${borderWidthClass} first:border-t-0 ${borderColor(cardstyle?.borderStyles)} ${cardstyle?.fillStyles}`}>
-      <div className={`relative cursor-pointer text-primary ${cardstyle?.padding} ${cardstyle?.headlineStyles} ${active && cardstyle?.fillStylesActive }`} onClick={() => setActive(!active)}>
+      <div className={`relative cursor-pointer text-primary pr-10 ${cardstyle?.padding} ${cardstyle?.headlineStyles} ${active && cardstyle?.fillStylesActive }`} onClick={() => setActive(!active)}>
         {data.headline && (
           <h3 className={cardstyle?.headlineStyles} data-tinafield={`${parentField}.${index}.headline`}>{data.headline}</h3>
         )}
@@ -67,7 +67,7 @@ export const Accordian = ({ data, parentField = "" }) => {
   return (
     <Section background={data.background} navigationLabel={data.navigationLabel}>
       <div className={`relative w-full max-w-site-full mx-auto ${style?.padding} ${style?.alignment}`}>
-        <div className="relative flex flex-col-reverse py-12 px-12 w-full">
+        <div className="relative flex flex-col-reverse py-12 px-12 sm:py-8 sm:px-6 w-full">
           <div className="absolute inset-0 -z-1" style={{backdropFilter: "blur(10px)"}} />
           <div className="absolute inset-0 -z-1 bg-white opacity-5" />
           <div className={`${wrapClasses(style)}`}>

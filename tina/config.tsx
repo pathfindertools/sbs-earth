@@ -10,6 +10,7 @@ import { cardsBlockSchema } from "../schema/blocks/cards";
 import { accordianBlockSchema } from "../schema/blocks/accordian";
 import { embedBlockSchema } from "../schema/blocks/embed";
 import { speakersBlockSchema } from "../schema/blocks/speakers";
+import { sponsorsBlockSchema } from "../schema/blocks/sponsors";
 import { tailwindFeatureBlockSchema } from "../schema/blocks/tailwind-feature"
 import { tailwindCardsBlockSchema } from "../schema/blocks/tailwind-cards"
 import { eventScheduleBlockSchema } from "../schema/blocks/event-schedule"
@@ -84,6 +85,7 @@ const config = defineStaticConfig({
               accordianBlockSchema,
               embedBlockSchema,
               speakersBlockSchema,
+              sponsorsBlockSchema,
               tailwindFeatureBlockSchema,
               tailwindCardsBlockSchema,
               eventScheduleBlockSchema,

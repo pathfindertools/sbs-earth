@@ -30,10 +30,11 @@ export const SectionListItemsPlugin = {
         eventTimeline: 'Event Timeline',
         feature: 'Feature',
         speakers: 'Speakers',
+        sponsors: 'Sponsors',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
       }
-      const sectionName = item.headline || item.subhead || item.label || item.title || ''
+      const sectionName = item.headline || item.subhead || item.label || item.title || '' 
       const sectionNameShort = sectionName.match(/^.{24}\w*/)
       const sectionLabel = sectionNameShort || sectionName || ''
       const label = sectionLabel ? `${sectionLabel} (${templateNames[item._template]})` : `${templateNames[item._template]}`

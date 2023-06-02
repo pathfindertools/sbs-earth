@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { hasWord, getWordWith } from '../../helpers/utilities';
+import { hasWord } from '../../helpers/utilities';
 import { Section } from '../section';
 import { Content } from '../content';
 
@@ -18,20 +18,20 @@ const wrapClasses = (style) => {
 
 const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
   return (    
-    <div className={`relative w-full flex px-10 py-8 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
+    <div className={`relative w-full flex py-8 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
       <div className={`${cardstyle?.fillStyles} rounded-lg absolute inset-0 -z-1`} />
       <div className={`rounded-t-lg bg-accent2 absolute top-0 w-full h-2.5 -z-1`} />
       {data.image?.src && (
-        <div>
+        <div className="mx-auto px-4" style={{maxWidth: "200px"}}>
           <img
-            className={`sm:hidden rounded-full border-accent2 border-4`}
+            className={`rounded-full border-accent2 border-4`}
             alt={data.image.alt || data.headline}
             src={data.image.src}
             data-tinafield={`${parentField}.image`}
           />
         </div>
       )}
-      <div className="flex-1 h-full flex flex-col mt-5" >
+      <div className="flex-1 h-full flex flex-col mt-5 px-10" >
         <Content
           data = {data}
           alignment = {``}
@@ -47,8 +47,6 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
 
 export const Speakers = ({ data, parentField = "" }) => {
   const style = data.style || {}
-  const textAlignMobile = getWordWith(style.featureContent, 'sm:text-')
-  const textAlign = getWordWith(style.featureContent, 'text-')
 
   return (
     <Section background={data.background} navigationLabel={data.navigationLabel}>

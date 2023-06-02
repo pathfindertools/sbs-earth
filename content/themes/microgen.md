@@ -27,13 +27,13 @@ typo:
       {"family":"Inter:wght@600","size":"28","lineHeight":"40","letterSpacing":"0","margin":"40","smSize":"28","smLineHeight":"40","smLetterSpacing":"0","smMargin":"40"}
   - label: Headline Small
     typography: >-
-      {"family":"Inter:wght@600","size":"25","lineHeight":"25","letterSpacing":"0","margin":"15","smSize":"25","smLineHeight":"25","smLetterSpacing":"0","smMargin":"15"}
+      {"family":"Inter:wght@600","size":"25","lineHeight":"25","letterSpacing":"0","margin":"15","smSize":"20","smLineHeight":"25","smLetterSpacing":"0","smMargin":"15"}
   - label: Headline Medium
     typography: >-
       {"family":"Inter:wght@900","size":"32","lineHeight":"40","letterSpacing":"0","margin":"30","smSize":"32","smLineHeight":"40","smLetterSpacing":"0","smMargin":"30"}
   - label: Headline Large
     typography: >-
-      {"family":"bely-display:wght@400:style@normal","size":"64","lineHeight":"80","letterSpacing":"0","margin":"30","smSize":"","smLineHeight":"","smLetterSpacing":"","smMargin":""}
+      {"family":"bely-display:wght@400:style@normal","size":"64","lineHeight":"80","letterSpacing":"0","margin":"40","smSize":"48","smLineHeight":"60","smLetterSpacing":"0","smMargin":"32"}
 buttons:
   - label: Footer Link
     fill: ' opacity-100'
@@ -58,4 +58,10 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
+
+
+
+
+
 
