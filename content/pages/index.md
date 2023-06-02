@@ -80,6 +80,10 @@ blocks:
       src: /uploads/lead-in-background.jpg
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/nature-leaf-1.png
+          alignment: top-left
+          xOffset: ''
     headline: ''
     subhead: ''
     body: >
@@ -107,8 +111,30 @@ blocks:
       subheadStyles: text-black mg-copy-small mb-0
       textStyles: text-black mg-copy undefined
     background:
+      fillStyles: ' opacity-100'
+      src: ''
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/abstract-1.png
+          alignment: top
+          width: '450'
+          xOffset: '-650'
+          yOffset: '170'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          xOffset: '-750'
+        - src: /uploads/blue-blur.svg
+          alignment: top
+          xOffset: '700'
+          yOffset: '200'
+        - src: /uploads/green-blur.svg
+          alignment: top
+          xOffset: '750'
+          yOffset: '-100'
+        - src: /uploads/nature-dandelion.png
+          alignment: bottom
+          xOffset: '520'
     label: ''
     headline: Previous Speakers
     subhead: ''
@@ -213,7 +239,7 @@ blocks:
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
-      padding: 'pt-32 pb-20 pr-10 pl-10 sm:pt-16 sm:pb-12 sm:pr-5 sm:pl-5'
+      padding: 'pt-32 pb-40 pr-10 pl-10 sm:pt-16 sm:pb-12 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-white mg-headline-large undefined
@@ -228,8 +254,38 @@ blocks:
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy mb-0
     background:
+      fillStyles: ' opacity-100'
+      src: ''
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/green-blur.svg
+          alignment: bottom
+          xOffset: '-700'
+          yOffset: '100'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          width: '400'
+          xOffset: '-600'
+          yOffset: '-100'
+        - src: /uploads/green-blur.svg
+          alignment: bottom
+          xOffset: '700'
+          yOffset: '150'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          width: ''
+          height: '600'
+          xOffset: '500'
+          yOffset: '300'
+        - src: /uploads/abstract-2.png
+          alignment: bottom
+          xOffset: '450'
+          yOffset: '-100'
+        - src: /uploads/nature-leaf-2.png
+          alignment: bottom-left
+          xOffset: ''
+          yOffset: '-100'
     label: ''
     headline: FAQ
     subhead: ''
@@ -277,6 +333,9 @@ blocks:
       src: /uploads/bg-sponsors.jpg
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/nature-wood-grain.png
+          alignment: bottom-right
     sponsors:
       - src: /uploads/topl.svg
       - src: /uploads/bacalhau.svg
@@ -327,3 +386,13 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
