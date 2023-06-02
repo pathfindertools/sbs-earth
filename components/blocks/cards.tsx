@@ -53,7 +53,7 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
         <>
           <div className={`${cardstyle?.imagePadding} sm:hidden`} style={cardImgStyles(cardstyle, false)}>
             <img
-              className={`sm:hidden ${cardImgClasses(cardstyle, false)}`}
+              className={`sm:hidden rounded-full ${cardImgClasses(cardstyle, false)}`}
               style={cardImgStyles(cardstyle, false)}
               alt={data.image.alt || data.headline}
               src={data.image.src}
@@ -62,7 +62,7 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
           </div>
           <div className={`${cardstyle?.imagePadding} hidden sm:block`} style={cardImgStyles(cardstyle, true)}>
             <img
-              className={`hidden sm:block  ${cardImgClasses(cardstyle, true)}`}
+              className={`hidden sm:block rounded-full ${cardImgClasses(cardstyle, true)}`}
               style={cardImgStyles(cardstyle, true)}
               alt={data.image.alt || data.headline}
               src={data.image.src}
