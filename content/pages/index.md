@@ -20,7 +20,7 @@ blocks:
           width: '600'
           xOffset: '-600'
           yOffset: '0'
-        - src: /uploads/hero-earth.png
+        - src: /uploads/sbs-earth-hero.png
           alignment: center
           xOffset: '500'
           yOffset: '400'
@@ -386,6 +386,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
