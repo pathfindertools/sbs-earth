@@ -24,7 +24,7 @@ typo:
       {"family":"Inter:wght@400","size":"20","lineHeight":"34","letterSpacing":"0","margin":"30","smSize":"20","smLineHeight":"34","smLetterSpacing":"0","smMargin":"0"}
   - label: Copy Large
     typography: >-
-      {"family":"Inter:wght@600","size":"28","lineHeight":"40","letterSpacing":"0","margin":"40","smSize":"28","smLineHeight":"40","smLetterSpacing":"0","smMargin":"40"}
+      {"family":"Inter:wght@400","size":"26","lineHeight":"40","letterSpacing":"0","margin":"40","smSize":"28","smLineHeight":"40","smLetterSpacing":"0","smMargin":"40"}
   - label: Headline Small
     typography: >-
       {"family":"Inter:wght@600","size":"25","lineHeight":"25","letterSpacing":"0","margin":"15","smSize":"20","smLineHeight":"25","smLetterSpacing":"0","smMargin":"15"}
@@ -58,6 +58,7 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
 
 
 
