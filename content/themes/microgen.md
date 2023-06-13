@@ -35,6 +35,20 @@ typo:
     typography: >-
       {"family":"bely-display:wght@400:style@normal","size":"64","lineHeight":"80","letterSpacing":"0","margin":"40","smSize":"48","smLineHeight":"60","smLetterSpacing":"0","smMargin":"32"}
 buttons:
+  - label: Primary
+    fill: bg-accent1 opacity-100
+    typography: >-
+      {"color":"accent4","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+    padding: pt-4 pb-4 pr-7 pl-7
+    primaryBorder: border-accent1 border-2
+    primaryRounded: rounded
+  - label: Outline
+    fill: ' opacity-100'
+    typography: >-
+      {"color":"white","family":"Inter:wght@600","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+    padding: pt-2.5 pb-2.5 pr-9 pl-9
+    primaryBorder: border-accent1 border-2
+    primaryRounded: rounded
   - label: Footer Link
     fill: ' opacity-100'
     typography: >-
@@ -42,13 +56,6 @@ buttons:
     padding: pt-0 pb-0 pr-10 pl-0
     primaryBorder: border-accent3 border-b-0
     primaryRounded: rounded-none
-  - label: Primary
-    fill: bg-primary opacity-100
-    typography: >-
-      {"color":"white","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
-    padding: pt-4 pb-4 pr-7 pl-7
-    primaryBorder: border-accent1 border-2
-    primaryRounded: rounded
 linkColor: accent1
 fonts:
   typekitLink: 'https://use.typekit.net/jym3guk.css'
@@ -58,6 +65,9 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
+
+
 
 
 

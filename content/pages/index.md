@@ -20,10 +20,6 @@ blocks:
           width: '600'
           xOffset: '-600'
           yOffset: '0'
-        - src: /uploads/hero-earth.png
-          alignment: center
-          xOffset: '500'
-          yOffset: '400'
     image:
       src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
@@ -46,6 +42,11 @@ blocks:
       fillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
+      ornaments:
+        - src: /uploads/earth.webp
+          alignment: center
+          xOffset: '600'
+          yOffset: '-50'
     image:
       src: /uploads/virtual-label.svg
     label: ''
@@ -77,13 +78,14 @@ blocks:
       textStyles: text-white mg-copy-large mb-3.5
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/lead-in-background.jpg
+      src: /uploads/lead-in-bg.webp
       style: bg-cover
       position: bg-center
       ornaments:
-        - src: /uploads/nature-leaf-1.png
-          alignment: top-left
-          xOffset: ''
+        - src: /uploads/dandelion.webp
+          alignment: center
+          xOffset: '-600'
+          yOffset: '-50'
     headline: ''
     subhead: ''
     body: >
@@ -116,6 +118,10 @@ blocks:
       style: bg-cover
       position: bg-center
       ornaments:
+        - src: /uploads/clematis.webp
+          alignment: bottom
+          xOffset: '-600'
+          yOffset: '50'
         - src: /uploads/abstract-1.png
           alignment: top
           width: '450'
@@ -132,9 +138,10 @@ blocks:
           alignment: top
           xOffset: '750'
           yOffset: '-100'
-        - src: /uploads/nature-dandelion.png
-          alignment: bottom
-          xOffset: '520'
+        - src: /uploads/carnation.webp
+          alignment: top
+          xOffset: '600'
+          yOffset: '250'
     label: ''
     headline: Previous Speakers
     subhead: ''
@@ -282,10 +289,6 @@ blocks:
           alignment: bottom
           xOffset: '450'
           yOffset: '-100'
-        - src: /uploads/nature-leaf-2.png
-          alignment: bottom-left
-          xOffset: ''
-          yOffset: '-100'
     label: ''
     headline: FAQ
     subhead: ''
@@ -333,9 +336,6 @@ blocks:
       src: /uploads/bg-sponsors.jpg
       style: bg-cover
       position: bg-center
-      ornaments:
-        - src: /uploads/nature-wood-grain.png
-          alignment: bottom-right
     sponsors:
       - src: /uploads/topl.svg
       - src: /uploads/bacalhau.svg
@@ -386,6 +386,10 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
 
 
 
