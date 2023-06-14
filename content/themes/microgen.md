@@ -13,6 +13,9 @@ colors:
   grayDark: '#7B7A80'
   black: '#000000'
 typo:
+  - label: Copy Footer
+    typography: >-
+      {"family":"Inter:wght@400","size":"14","lineHeight":"20","letterSpacing":"0","margin":"0","smSize":"","smLineHeight":"","smLetterSpacing":"","smMargin":""}
   - label: Hidden
     typography: >-
       {"family":"Arial","size":"0","lineHeight":"0","letterSpacing":"0","margin":"0","smSize":"0","smLineHeight":"0","smLetterSpacing":"0","smMargin":"0"}
@@ -38,17 +41,19 @@ buttons:
   - label: Primary
     fill: bg-accent1 opacity-100
     typography: >-
-      {"color":"accent4","family":"Inter:wght@400","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
+      {"color":"accent4","family":"Inter:wght@600","size":"16","lineHeight":"16","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
     padding: pt-4 pb-4 pr-7 pl-7
     primaryBorder: border-accent1 border-2
     primaryRounded: rounded
+    iconSize: undefined
   - label: Outline
     fill: ' opacity-100'
     typography: >-
-      {"color":"white","family":"Inter:wght@600","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"18","smLineHeight":"18","smLetterSpacing":"0"}
-    padding: pt-2.5 pb-2.5 pr-9 pl-9
+      {"color":"white","family":"Inter:wght@600","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"16","smLineHeight":"16","smLetterSpacing":"0"}
+    padding: pt-3.5 pb-3.5 pr-9 pl-9
     primaryBorder: border-accent1 border-2
     primaryRounded: rounded
+    iconSize: undefined
   - label: Footer Link
     fill: ' opacity-100'
     typography: >-
@@ -56,6 +61,7 @@ buttons:
     padding: pt-0 pb-0 pr-10 pl-0
     primaryBorder: border-accent3 border-b-0
     primaryRounded: rounded-none
+    iconSize: undefined
 linkColor: accent1
 fonts:
   typekitLink: 'https://use.typekit.net/jym3guk.css'
@@ -65,6 +71,10 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
+
+
+
 
 
 

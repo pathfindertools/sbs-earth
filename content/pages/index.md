@@ -32,6 +32,7 @@ blocks:
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
       featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      buttonsLayout: 'flex-row gap-3.5 '
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: >-
@@ -62,10 +63,10 @@ blocks:
       - label: Register
         link: >-
           https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
-        buttonStyle: primary
+        buttonStyle: outline
       - label: Submit a proposal
         link: 'https://airtable.com/shrDMbSOehx2XDiho'
-        buttonStyle: primary
+        buttonStyle: outline
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
@@ -78,14 +79,16 @@ blocks:
       textStyles: text-white mg-copy-large mb-3.5
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       src: /uploads/lead-in-bg.webp
       style: bg-cover
       position: bg-center
       ornaments:
         - src: /uploads/dandelion.webp
-          alignment: center
+          alignment: bottom
+          height: '550'
           xOffset: '-600'
-          yOffset: '-50'
+          yOffset: ''
     headline: ''
     subhead: ''
     body: >
@@ -327,7 +330,7 @@ blocks:
           est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
           sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
           vehicula ut id elit.
-    _template: accordian
+    _template: accordion
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-large undefined
@@ -346,36 +349,6 @@ blocks:
       - src: /uploads/protocol.svg
       - src: /uploads/filecoin-foundation.svg
     _template: sponsors
-  - style:
-      alignment: 'flex-col items-center  sm:flex-row-reverse sm:items-center sm:'
-      padding: 'pt-20 pb-20 pr-24 pl-24 sm:pt-8 sm:pb-8 sm:pr-8 sm:pl-8'
-      featureImage: '  mx-auto'
-      featureContent: 'w-full min-h-0 text-left sm:w-3/5 sm:min-h-0 sm:text-left'
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-white mg-copy-small mb-7
-      subheadStyles: text-black undefined undefined
-      textStyles: text-black undefined undefined
-    background:
-      style: bg-cover
-      position: bg-center
-    headline: Previous SBS Events
-    subhead: ''
-    body: ''
-    buttons:
-      - label: SBS Boston
-        link: 'https://boston23.sbs.tech'
-        buttonStyle: footer-link
-      - label: SBS LATAM
-        link: 'https://latam22.sbs.tech/'
-        buttonStyle: footer-link
-      - label: SBS Paris
-        link: 'https://paris22.sbs.tech/'
-        buttonStyle: footer-link
-      - label: SBS SXSW
-        link: >-
-          https://www.youtube.com/playlist?list=PL_0VrY55uV1_aJWwOGFchnpgzm3rdQbaQ
-        buttonStyle: footer-link
-    _template: feature
 backgroundColor: white
 meta:
   title: SBS Earth | August 16. 2023
@@ -386,6 +359,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 

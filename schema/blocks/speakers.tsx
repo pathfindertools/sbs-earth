@@ -122,6 +122,9 @@ export const speakersBlockSchema: any = {
       label: "Speakers",
       name: "items",
       list: true,
+      itemProps: (item) => ({
+        label: `${item.label} ${item.headline}`,
+      }),
       fields: [
         imageSchema,
         {

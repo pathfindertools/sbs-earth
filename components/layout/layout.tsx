@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { Header } from "./header";
+import { Footer } from "./footer";
+import { FooterNav } from "./footer-nav";
 import { Blocks } from "../../components/blocks-renderer";
 import { styles } from "./styles"
 import { googleFontsLink } from "./google-fonts"
@@ -71,6 +73,10 @@ export const Layout = ({ rawData, children }) => {
         {children}
       </main>
       <div id="footer">
+        <Footer />
+        { global.footerNav === "true" && (
+          <FooterNav blocks={page?.blocks} globalData={global} />
+        )}
         <Blocks blocks={global.blocks} />
       </div>
     </>

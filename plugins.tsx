@@ -3,6 +3,7 @@ import { GroupListField, BlocksFieldPlugin } from 'tinacms'
 import AlignmentControl from './components/tina/AlignmentControl'
 import BorderControl from './components/tina/BorderControl'
 import ButtonControl from './components/tina/ButtonControl'
+import ButtonsLayoutControl from './components/tina/ButtonsLayoutControl'
 import ButtonTypographyControl from './components/tina/ButtonTypographyControl'
 import CardAlignmentControl from './components/tina/CardAlignmentControl'
 import ColorControl from './components/tina/ColorControl'
@@ -22,7 +23,7 @@ export const SectionListItemsPlugin = {
   Component: (props) => {
     const itemProps = (item) => {
       const templateNames = {
-        accordian: 'Accordian',
+        accordion: 'Accordion',
         banner: 'Banner',
         cards: 'Cards',
         embed: 'Embed',
@@ -34,7 +35,7 @@ export const SectionListItemsPlugin = {
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
       }
-      const sectionName = item.headline || item.subhead || item.label || item.title || '' 
+      const sectionName = item.headline || item.subhead || item.label || item.title || ''
       const sectionNameShort = sectionName.match(/^.{24}\w*/)
       const sectionLabel = sectionNameShort || sectionName || ''
       const label = sectionLabel ? `${sectionLabel} (${templateNames[item._template]})` : `${templateNames[item._template]}`
@@ -104,6 +105,12 @@ export const buttonControlFieldPlugin = {
   Component: ButtonControl,
   __type: 'field',
   name: 'buttonControl',
+}
+
+export const buttonsLayoutControlFieldPlugin = {
+  Component: ButtonsLayoutControl,
+  __type: 'field',
+  name: 'buttonsLayoutControl',
 }
 
 export const featureContentControlPlugin = {

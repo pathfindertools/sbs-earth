@@ -1,5 +1,4 @@
 import { defineStaticConfig } from "tinacms";
-import { colorOptions } from "../schema/options";
 
 // Partials
 import { backgroundSchema } from "../schema/background"
@@ -7,7 +6,7 @@ import { backgroundSchema } from "../schema/background"
 // Blocks
 import { featureBlockSchema } from "../schema/blocks/feature";
 import { cardsBlockSchema } from "../schema/blocks/cards";
-import { accordianBlockSchema } from "../schema/blocks/accordian";
+import { accordionBlockSchema } from "../schema/blocks/accordion";
 import { embedBlockSchema } from "../schema/blocks/embed";
 import { speakersBlockSchema } from "../schema/blocks/speakers";
 import { sponsorsBlockSchema } from "../schema/blocks/sponsors";
@@ -82,7 +81,7 @@ const config = defineStaticConfig({
             templates: [
               featureBlockSchema,
               cardsBlockSchema,
-              accordianBlockSchema,
+              accordionBlockSchema,
               embedBlockSchema,
               speakersBlockSchema,
               sponsorsBlockSchema,
@@ -142,6 +141,9 @@ const config = defineStaticConfig({
     });
     import("../plugins").then(({ buttonControlFieldPlugin }) => {
       cms.plugins.add(buttonControlFieldPlugin);
+    });
+    import("../plugins").then(({ buttonsLayoutControlFieldPlugin }) => {
+      cms.plugins.add(buttonsLayoutControlFieldPlugin);
     });
     import("../plugins").then(({ buttonTypographyControlFieldPlugin }) => {
       cms.plugins.add(buttonTypographyControlFieldPlugin);
