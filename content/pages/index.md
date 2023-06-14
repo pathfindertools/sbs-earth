@@ -52,7 +52,7 @@ blocks:
     image:
       src: /uploads/virtual-label.svg
     label: ''
-    headline: Join us to shape a sustainable  future
+    headline: Join us to shape a sustainable future
     subhead: 'August XX, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
@@ -360,6 +360,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
