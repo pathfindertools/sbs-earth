@@ -35,7 +35,7 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
         <Content
           data = {data}
           alignment = {``}
-          buttonsLayout = {data.style.buttonsLayout}
+          buttonsLayout = {cardstyle.buttonsLayout}
           styles = {cardstyle}
           width = "w-full"
           parentField = {parentField}
