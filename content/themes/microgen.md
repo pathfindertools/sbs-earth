@@ -47,7 +47,7 @@ buttons:
     primaryRounded: rounded
     iconSize: undefined
   - label: Outline
-    fill: ' opacity-100'
+    fill: bg-accent4 opacity-100
     typography: >-
       {"color":"white","family":"Inter:wght@600","size":"18","lineHeight":"18","letterSpacing":"0","smSize":"16","smLineHeight":"16","smLetterSpacing":"0"}
     padding: pt-3.5 pb-3.5 pr-9 pl-9
@@ -71,6 +71,7 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
 
 
 
