@@ -3,10 +3,11 @@ blocks:
   - style:
       alignment: 'flex-row items-start '
       padding: pt-11 pb-0 pr-10 pl-8
-      featureImage: wpx-132 hpx-200 mr-auto
-      featureContent: w-1/2 min-h-0 text-right
+      featureImage: 'wpx-132 hpx-200 mr-auto sm:wpx-90 sm:hpx- sm:mr-auto'
+      featureContent: 'w-1/2 min-h-0 text-right sm:w-3/4 sm:min-h-0 sm:text-right'
+      buttonsLayout: 'flex-row  '
       labelStyles: 'text-accent3 mg-headline-small '
-      headlineStyles: 'text-white mg-copy '
+      headlineStyles: 'text-white mg-copy  sm:text-white mg-copy-small sm:mb-24'
       subheadStyles: 'text-white mg-headline-small '
       textStyles: 'text-white mg-headline-small '
     background:
@@ -86,7 +87,7 @@ blocks:
       ornaments:
         - src: /uploads/dandelion.webp
           alignment: bottom
-          height: '550'
+          height: '430'
           xOffset: '-600'
           yOffset: ''
     headline: ''
@@ -104,7 +105,7 @@ blocks:
       padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
-      headlineStyles: text-white mg-headline-large undefined
+      headlineStyles: text-accent3 mg-headline-large undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy undefined
     cardStyle:
@@ -359,3 +360,6 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
