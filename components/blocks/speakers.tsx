@@ -35,6 +35,7 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
         <Content
           data = {data}
           alignment = {``}
+          buttonsLayout = {data.style.buttonsLayout}
           styles = {cardstyle}
           width = "w-full"
           parentField = {parentField}
@@ -64,6 +65,7 @@ export const Speakers = ({ data, parentField = "" }) => {
             data = {data}
             styles = {style}
             alignment = {`text-center`}
+            buttonsLayout = {style.buttonsLayout}
             width = "w-full"
             parentField = {parentField}
             className = ""
