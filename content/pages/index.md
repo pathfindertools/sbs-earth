@@ -359,20 +359,3 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
