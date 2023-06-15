@@ -53,7 +53,7 @@ blocks:
       src: /uploads/virtual-label.svg
     label: ''
     headline: Join us to shape a sustainable future
-    subhead: 'August XX, 2023'
+    subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -360,6 +360,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
