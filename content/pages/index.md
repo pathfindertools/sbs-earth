@@ -50,8 +50,8 @@ blocks:
     image:
       src: /uploads/virtual-label.svg
     label: ''
-    headline: Join us to shape a sustainable  future
-    subhead: 'August XX, 2023'
+    headline: Join us to shape a sustainable future
+    subhead: 'August 16, 2023'
     body: >
       Welcome to the inaugural virtual Sustainable Blockchain Summit, where
       technology meets sustainability in a groundbreaking digital experience!
@@ -154,10 +154,11 @@ blocks:
       SBS Boston speaker lineup to be announced soon.
     items:
       - image:
-          src: /uploads/avatar.jpg
-        label: ''
-        headline: Name Name
-        subhead: Title
+          src: /uploads/jason jay.png
+          alt: Jason Jay
+        label: Jason
+        headline: Jay
+        subhead: MIT Sloan School of Management
         body: ''
       - image:
           src: /uploads/avatar.jpg
@@ -358,12 +359,6 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
-
-
-
-
 
 
 
