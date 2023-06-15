@@ -156,10 +156,11 @@ blocks:
       SBS Boston speaker lineup to be announced soon.
     items:
       - image:
-          src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
-        subhead: Title
+          src: /uploads/jason jay.png
+          alt: Jason Jay
+        label: Jason
+        headline: Jay
+        subhead: MIT Sloan School of Management
         body: ''
       - image:
           src: /uploads/avatar.jpg
@@ -360,6 +361,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
