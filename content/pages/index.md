@@ -7,7 +7,7 @@ blocks:
       featureContent: 'w-1/2 min-h-0 text-right sm:w-3/4 sm:min-h-0 sm:text-right'
       buttonsLayout: 'flex-row  '
       labelStyles: 'text-accent3 mg-headline-small '
-      headlineStyles: 'text-white mg-copy  sm:text-white mg-copy-small sm:mb-24'
+      headlineStyles: 'text-white mg-copy  sm:text-white undefined sm:mb-24'
       subheadStyles: 'text-white mg-headline-small '
       textStyles: 'text-white mg-headline-small '
     background:
@@ -33,12 +33,10 @@ blocks:
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
       featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
-      buttonsLayout: 'flex-row gap-3.5 '
+      buttonsLayout: 'flex-row gap-7 '
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
-      subheadStyles: >-
-        text-white mg-headline-medium mb-20 sm:text-white sm:mg-headline-medium
-        sm:mb-10
+      subheadStyles: text-white mg-headline-small mb-20
       textStyles: text-white mg-copy-small mb-12
     background:
       fillStyles: ' opacity-100'
@@ -105,7 +103,7 @@ blocks:
       padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
-      headlineStyles: text-accent3 mg-headline-large undefined
+      headlineStyles: text-accent3 mg-headline-medium mb-16
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy undefined
     cardStyle:
@@ -113,8 +111,8 @@ blocks:
       grid: 'grid-cols-4 justify-start gap-4 sm:grid-cols-2 sm:justify-start sm:gap-4'
       alignment: flex-col items-center  text-center
       labelStyles: text-black mg-copy mb-0
-      headlineStyles: text-black mg-copy mb-0
-      subheadStyles: text-black mg-copy-small mb-0
+      headlineStyles: text-black mg-card-name mb-9
+      subheadStyles: text-black mg-card-title mb-0
       textStyles: text-black mg-copy undefined
     background:
       fillStyles: ' opacity-100'
@@ -157,74 +155,74 @@ blocks:
     items:
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
       - image:
           src: /uploads/avatar.jpg
-        label: First Name
-        headline: Last Name
+        label: ''
+        headline: Name Name
         subhead: Title
         body: ''
     _template: speakers
@@ -246,7 +244,7 @@ blocks:
     buttons:
       - label: Speak at SBS Earth
         link: /
-        buttonStyle: primary
+        buttonStyle: outline
     _template: feature
   - style:
       alignment: flex-col-reverse items-center gap-6
@@ -261,7 +259,7 @@ blocks:
       fillStylesActive: ' opacity-100'
       padding: pt-5 pb-5 pr-0 pl-0
       borderStyles: border-gray border-1
-      headlineStyles: text-white mg-headline-small mb-0
+      headlineStyles: text-white mg-copy-large mb-0
       subheadStyles: text-black undefined undefined
       textStyles: text-white mg-copy mb-0
     background:
@@ -360,6 +358,15 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
 
 
 

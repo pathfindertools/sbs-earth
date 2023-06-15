@@ -18,11 +18,10 @@ const wrapClasses = (style) => {
 
 const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
   return (    
-    <div className={`relative w-full flex py-8 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
-      <div className={`${cardstyle?.fillStyles} rounded-lg absolute inset-0 -z-1`} />
-      <div className={`rounded-t-lg bg-accent2 absolute top-0 w-full h-2.5 -z-1`} />
+    <div className={`relative w-full flex py-7 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
+      <div className={`${cardstyle?.fillStyles} absolute inset-0 -z-1`} />
       {data.image?.src && (
-        <div className="mx-auto px-4" style={{maxWidth: "200px"}}>
+        <div className="mx-auto px-4" style={{maxWidth: "160px"}}>
           <img
             className={`rounded-full border-accent2 border-4`}
             alt={data.image.alt || data.headline}
@@ -31,7 +30,7 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
           />
         </div>
       )}
-      <div className="flex-1 h-full flex flex-col mt-5 px-10" >
+      <div className="flex-1 h-full flex flex-col mt-6 px-10" >
         <Content
           data = {data}
           alignment = {``}

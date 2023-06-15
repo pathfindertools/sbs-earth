@@ -128,12 +128,12 @@ export const speakersBlockSchema: any = {
       fields: [
         imageSchema,
         {
-          label: "First Name",
+          label: "Label",
           name: "label",
           type: "string",
         },
         {
-          label: "Last Name",
+          label: "Name",
           name: "headline",
           type: "string",
         },
