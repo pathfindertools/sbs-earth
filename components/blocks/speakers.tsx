@@ -30,7 +30,7 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
           />
         </div>
       )}
-      <div className="flex-1 h-full flex flex-col mt-6 px-10" >
+      <div className="flex-1 h-full flex flex-col mt-6 px-4" >
         <Content
           data = {data}
           alignment = {``}

@@ -156,8 +156,8 @@ blocks:
       - image:
           src: /uploads/jason jay.png
           alt: Jason Jay
-        label: Jason
-        headline: Jay
+        label: ''
+        headline: Jason Jay
         subhead: MIT Sloan School of Management
         body: ''
       - image:
@@ -251,8 +251,9 @@ blocks:
       alignment: flex-col-reverse items-center gap-6
       padding: 'pt-32 pb-40 pr-10 pl-10 sm:pt-16 sm:pb-12 sm:pr-5 sm:pl-5'
       featureContent: w-full min-h-0 text-center
+      buttonsLayout: 'flex-row  '
       labelStyles: text-black undefined undefined
-      headlineStyles: text-white mg-headline-large undefined
+      headlineStyles: text-white mg-headline-medium undefined
       subheadStyles: text-white undefined undefined
       textStyles: text-white undefined undefined
     cardStyle:
@@ -333,7 +334,7 @@ blocks:
     _template: accordion
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
-      headlineStyles: text-white mg-headline-large undefined
+      headlineStyles: text-white mg-headline-medium undefined
     background:
       fillStyles: ' opacity-100'
       src: /uploads/bg-sponsors.jpg
@@ -359,6 +360,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 
