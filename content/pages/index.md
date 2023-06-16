@@ -400,12 +400,6 @@ blocks:
       src: /uploads/bg-sponsors.jpg
       style: bg-cover
       position: bg-center
-    sponsors:
-      - src: /uploads/topl.svg
-      - src: /uploads/bacalhau.svg
-      - src: /uploads/topl.svg
-      - src: /uploads/bacalhau.svg
-      - src: /uploads/topl.svg
     partners:
       - src: /uploads/protocol.svg
       - src: /uploads/filecoin-foundation.svg
@@ -425,6 +419,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
