@@ -153,30 +153,6 @@ blocks:
       energy industry leaders, NGO's and leaders from web3 and ReFi projects.
       SBS Boston speaker lineup to be announced soon.
     items:
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
-      - {}
       - image:
           src: /uploads/jason jay.png
           alt: Jason Jay
@@ -184,6 +160,78 @@ blocks:
         headline: Jason Jay
         subhead: MIT Sloan School of Management
         body: ''
+      - image:
+          src: /uploads/kirsteen-harrison.png
+        label: ''
+        headline: Kirsteen Harrison
+        subhead: Zumo
+      - label: ''
+        headline: Alex Paris
+        subhead: UNFCCC
+        body: ''
+      - label: ''
+        headline: Killian Daly
+        subhead: EnergyTag
+      - label: ''
+        headline: Jaye Connolly-LaBelle
+        subhead: Caelum Resources
+        body: ''
+      - label: ''
+        headline: Peter Rosberg
+        subhead: Ripple
+      - label: ''
+        headline: Joshua Soloway
+        subhead: Ethicstream
+      - label: ''
+        headline: Sebastien Hess
+        subhead: Block Green
+      - label: ''
+        headline: Doug Miller
+        subhead: Clean Energy Buyers Institute
+      - label: ''
+        headline: John X
+        subhead: Toucan Protocol
+      - label: ''
+        headline: Simge Sandal
+        subhead: GainForest
+      - label: ''
+        headline: Alan Ransil
+        subhead: Filecoin Green
+      - label: ''
+        headline: Alexey Shadrin
+        subhead: Evercity
+      - label: ''
+        headline: Isha Varshney
+        subhead: Celo Foundation
+      - label: ''
+        headline: Wes Geisenberger
+        subhead: HBAR Foundation
+      - label: ''
+        headline: Gregory Landua
+        subhead: Regen Network
+      - label: ''
+        headline: Angie Maguire
+        subhead: Protocol Labs
+      - label: ''
+        headline: Ryan Thomas
+        subhead: Simbiotica Finance
+      - label: ''
+        headline: Sam Flanagan
+        subhead: Web3ForGood
+      - label: ''
+        headline: Erin Murphy
+        subhead: Topl
+      - label: ''
+        headline: Marc Johnson
+        subhead: Filecoin Green
+      - label: ''
+        headline: Kalyani Inampudi
+        subhead: ESG and Carbon Consultant
+      - label: ''
+        headline: Fikriye Colette Kaya
+        subhead: 'CERN, Tufts University'
+      - {}
+      - {}
       - image:
           src: /uploads/avatar.jpg
         label: ''
@@ -384,6 +432,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
