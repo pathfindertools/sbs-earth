@@ -400,16 +400,40 @@ blocks:
       src: /uploads/bg-sponsors.jpg
       style: bg-cover
       position: bg-center
-    sponsors:
-      - src: /uploads/topl.svg
-      - src: /uploads/bacalhau.svg
-      - src: /uploads/topl.svg
-      - src: /uploads/bacalhau.svg
-      - src: /uploads/topl.svg
     partners:
       - src: /uploads/protocol.svg
       - src: /uploads/filecoin-foundation.svg
     _template: sponsors
+  - style:
+      alignment: 'flex-col-reverse items-center '
+      padding: pt-20 pb-5 pr-10 pl-10
+      featureImage: '  mx-auto'
+      featureContent: w-full min-h-0 text-left
+      buttonsLayout: 'flex-wrap gap-7 '
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-white mg-copy-small mb-5
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
+    background:
+      style: bg-cover
+      position: bg-center
+    headline: Previous SBS Events
+    subhead: ''
+    buttons:
+      - label: SBS Boston
+        link: 'https://boston23.sbs.tech/'
+        buttonStyle: footer-link
+      - label: SBS LATAM
+        link: 'https://latam22.sbs.tech/'
+        buttonStyle: footer-link
+      - label: SBS Paris
+        link: 'https://paris22.sbs.tech/'
+        buttonStyle: footer-link
+      - label: SBS SXSW
+        link: >-
+          https://www.youtube.com/playlist?list=PL_0VrY55uV1_aJWwOGFchnpgzm3rdQbaQ
+        buttonStyle: footer-link
+    _template: feature
 backgroundColor: white
 meta:
   title: SBS Earth | August 16 2023
@@ -425,6 +449,9 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
 
 
 
