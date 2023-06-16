@@ -268,7 +268,9 @@ blocks:
         headline: Sam Flanagan
         subhead: Web3ForGood
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/murphy.png
+        label: ''
         headline: Erin Murphy
         subhead: Topl
         body: ''
@@ -492,6 +494,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
