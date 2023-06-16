@@ -151,7 +151,7 @@ blocks:
       Past SBS events have featured a diverse range of speakers, including
       representatives from the UNFCCC, UNESCO, government officials, legacy
       energy industry leaders, NGO's and leaders from web3 and ReFi projects.
-      SBS Boston speaker lineup to be announced soon.
+      SBS Earth speaker lineup to be announced soon.
     items:
       - image:
           src: /uploads/jason jay.png
@@ -420,6 +420,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
