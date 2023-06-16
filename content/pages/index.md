@@ -244,19 +244,27 @@ blocks:
         headline: Wes Geisenberger
         subhead: HBAR Foundation
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/landua.png
+        label: ''
         headline: Gregory Landua
         subhead: Regen Network
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/maguire.png
+        label: ''
         headline: Angie Maguire
         subhead: Protocol Labs
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/thomas.png
+        label: ''
         headline: Ryan Thomas
         subhead: Simbiotica Finance
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/flanagan.jpeg
+        label: ''
         headline: Sam Flanagan
         subhead: Web3ForGood
         body: ''
@@ -484,6 +492,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
