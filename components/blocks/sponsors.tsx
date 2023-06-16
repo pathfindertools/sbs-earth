@@ -23,13 +23,17 @@ export const Sponsors = ({ data, parentField = "" }) => {
       <div className={`relative flex w-full max-w-site-full mx-auto ${style?.padding}`}>
         
         <div className={`w-full`}>
-          <h2 className={`${data.style?.headlineStyles} text-center`}>Sponsors</h2>
-          <div className={`flex flex-wrap justify-center mb-20`}>
-            {data.sponsors &&
-              data.sponsors.map(function (sponsor, index) {
-                return <Sponsor key={index} index={index} data={sponsor} parentField={`${parentField}.items`} />;
-              })}
-          </div>
+          {data.sponsors?.length > 0 && (
+            <>
+              <h2 className={`${data.style?.headlineStyles} text-center`}>Sponsors</h2>
+              <div className={`flex flex-wrap justify-center mb-20`}>
+                {data.sponsors &&
+                  data.sponsors.map(function (sponsor, index) {
+                    return <Sponsor key={index} index={index} data={sponsor} parentField={`${parentField}.items`} />;
+                  })}
+              </div>
+            </>
+          )}
 
           <h2 className={`${data.style.headlineStyles} text-center`}>Partners</h2>
           <div className={`flex flex-wrap gap-10 justify-center`}>
