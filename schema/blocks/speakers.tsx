@@ -6,8 +6,8 @@ import { navigationLabelSchema } from "../navigation-label";
 import { typographySchema } from "../typography"
 
 const defaultCard = {
-  label: "First Name",
-  headline: "Last Name",
+  label: "",
+  headline: "Name",
   subhead: "Title",
 };
 
@@ -122,6 +122,13 @@ export const speakersBlockSchema: any = {
       label: "Speakers",
       name: "items",
       list: true,
+      ui: {
+        defaultItem: {
+          label: "",
+          headline: "Name",
+          subhead: "Title",
+        }
+      },
       itemProps: (item) => ({
         label: `${item.label} ${item.headline}`,
       }),
