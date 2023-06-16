@@ -274,40 +274,50 @@ blocks:
         headline: Erin Murphy
         subhead: Topl
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/johnson.jpeg
+        label: ''
         headline: Marc Johnson
         subhead: Filecoin Green
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/inampudi.png
+        label: ''
         headline: Kalyani Inampudi
         subhead: ESG and Carbon Consultant
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/kaya.png
+        label: ''
         headline: Fikriye Colette Kaya
         subhead: 'CERN, Tufts University'
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/dotan.jpeg
+        label: ''
         headline: Jonathan Dotan
         subhead: EQTY Lab
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/kaasovic.png
+        label: ''
         headline: Jason Kaasovic
         subhead: Web3 Renewables
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/yeleswarapu.png
         label: ''
         headline: Akshay Yeleswarapu
         subhead: de-plan ostrom
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/aureliuslol.png
         label: ''
         headline: Marcus Aurelius
         subhead: KlimaDAO
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/clement.jpeg
         label: ''
         headline: Benoît Clément
         subhead: Verra
@@ -494,6 +504,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
