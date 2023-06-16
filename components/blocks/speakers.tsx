@@ -21,13 +21,16 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
     <div className={`relative w-full flex py-7 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
       <div className={`${cardstyle?.fillStyles} absolute inset-0 -z-1`} />
       {data.image?.src && (
-        <div className="mx-auto px-4" style={{maxWidth: "160px"}}>
-          <img
-            className={`rounded-full border-accent2 border-4`}
-            alt={data.image.alt || data.headline}
-            src={data.image.src}
-            data-tinafield={`${parentField}.image`}
-          />
+        <div className="w-full px-4">
+          <div className="relative mx-auto w-full" style={{maxWidth: "160px"}}>
+            <div className="rounded-full bg-accent2" style={{paddingBottom: "100%"}}></div>
+            <img
+              className={`absolute top-0 left-0 w-full h-full rounded-full p-1 object-cover`}
+              alt={data.image.alt || data.headline}
+              src={data.image.src}
+              data-tinafield={`${parentField}.image`}
+            />
+          </div>
         </div>
       )}
       <div className="flex-1 h-full flex flex-col mt-6 px-4" >
