@@ -196,11 +196,15 @@ blocks:
         headline: Joshua Soloway
         subhead: Ethicstream
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/hess.jpeg
+        label: ''
         headline: Sebastien Hess
         subhead: Block Green
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/miller.png
+        label: ''
         headline: Doug Miller
         subhead: Clean Energy Buyers Institute
         body: ''
@@ -468,6 +472,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
