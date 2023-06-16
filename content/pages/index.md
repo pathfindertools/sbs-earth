@@ -267,62 +267,62 @@ blocks:
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Marcus Aurelius
+        subhead: KlimaDAO
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Benoît Clément
+        subhead: Verra
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Ned Harvey
+        subhead: Digital Gaia
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Caitlin Moore
+        subhead: Filecoin Green
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Gloria Kimbwala
+        subhead: Buidlbox.io
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Angelo Kalaw
+        subhead: Celo Foundation
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Nick Edmonds
+        subhead: Topl
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Nirvaan Ranganathan
+        subhead: Climate Collective
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Mukund Venkatakrishnan
+        subhead: Blueprint Finance
         body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Maxwell Kanter
+        subhead: Gitcoin
         body: ''
     _template: speakers
   - style:
@@ -458,6 +458,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
