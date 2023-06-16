@@ -153,6 +153,30 @@ blocks:
       energy industry leaders, NGO's and leaders from web3 and ReFi projects.
       SBS Boston speaker lineup to be announced soon.
     items:
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
+      - {}
       - image:
           src: /uploads/jason jay.png
           alt: Jason Jay
@@ -360,6 +384,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
