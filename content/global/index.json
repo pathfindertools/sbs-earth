@@ -1,5 +1,5 @@
 {
-  "siteUrl": "microgen.site",
+  "siteUrl": "sbs.tech",
   "gtmId": "",
   "fathomSiteId": "",
   "theme": "content/themes/microgen.md",
@@ -8,10 +8,11 @@
     "image": ""
   },
   "nav": {
-    "navAlignment": "text-right",
-    "navTypeStyle": "text-accent2 mg-body-sm ",
+    "padding": "pt-7 pb-10 pr-10 pl-8",
     "navBackgroundColor": " opacity-100",
-    "padding": "pt-7 pb-10 pr-10 pl-8"
+    "navAlignment": "text-right",
+    "navTypeStyle": "text-accent2 mg-body-sm "
   },
-  "favicon": "/uploads/sbs-earth-favicon.png"
+  "favicon": "/uploads/sbs-earth-favicon.png",
+  "analytics": "plausible"
 }
