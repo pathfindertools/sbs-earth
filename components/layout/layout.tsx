@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import { Header } from "./header";
+import { Footer } from "./footer";
+import { FooterNav } from "./footer-nav";
 import { Blocks } from "../../components/blocks-renderer";
 import { styles } from "./styles"
 import { googleFontsLink } from "./google-fonts"
@@ -36,22 +38,10 @@ export const Layout = ({ rawData, children }) => {
           }}
         />
         
-        {/* Google Analytics */}
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${global.gtmId}`} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            if (document.location.hostname.replace("www.", "") === "${global.siteUrl}") {
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${global.gtmId}', {
-                  page_path: window.location.pathname,
-                });
-              }
-            `,
-          }}
-        />
+       {/* Plausible Analytics */}
+        { global.siteUrl && global.analytics === "plausible" && (
+          <script defer data-domain={global.siteUrl} src="https://plausible.io/js/script.js"></script>
+        )}
 
         {/* Typekit Project Link */ }
         { global.theme.fonts?.typekitLink && (
@@ -71,6 +61,10 @@ export const Layout = ({ rawData, children }) => {
         {children}
       </main>
       <div id="footer">
+        <Footer />
+        { global.footerNav === "true" && (
+          <FooterNav blocks={page?.blocks} globalData={global} />
+        )}
         <Blocks blocks={global.blocks} />
       </div>
     </>

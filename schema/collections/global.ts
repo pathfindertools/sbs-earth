@@ -2,6 +2,7 @@
 import { featureBlockSchema } from "../blocks/feature";
 import { cardsBlockSchema } from "../blocks/cards";
 import { embedBlockSchema } from "../blocks/embed";
+import { iconOptions } from "../options";
 import { tailwindFeatureBlockSchema } from "../blocks/tailwind-feature"
 import { tailwindCardsBlockSchema } from "../blocks/tailwind-cards"
 
@@ -18,6 +19,7 @@ export const globalCollectionSchema: any = {
       type: "string",
       label: "Site Url",
       name: "siteUrl",
+      description: "Live url without www or https://",
     },
     {
       type: "image",
@@ -26,9 +28,18 @@ export const globalCollectionSchema: any = {
       description: "Should be a 48x48px png",
     },
     {
+      label: "Analytics",
+      name: "analytics",
+      description: "The type of analytics to use",
       type: "string",
-      label: "Google Tag Manager ID",
-      name: "gtmId",
+      ui: {
+        component: "select",
+      },
+      options: [
+        { label: "None", value: "none" },
+        { label: "Plausible", value: "plausible" },
+        { label: "Fathom", value: "fathom" },
+      ],
     },
     {
       label: "Fathom Site ID",
@@ -97,7 +108,52 @@ export const globalCollectionSchema: any = {
       name: "nav",
       fields: [
         {
-          label: "Navigation",
+          label: "Header Padding",
+          name: "padding",
+          type: "string",
+          ui: {
+            component: "paddingControl",
+          }
+        },
+        {
+          label: "Mobile Background Color",
+          name: "navBackgroundColor",
+          type: "string",
+          ui: {
+            component: "fillControl"
+          }
+        },
+        {
+          label: "Navigation Alignment",
+          name: "navAlignment",
+          type: "string",
+          ui: {
+            component: "select",
+          },
+          options: [
+            { label: "Left", value: "text-left" },
+            { label: "Center", value: "text-center" },
+            { label: "Right", value: "text-right" },
+          ],
+        },
+        {
+          type: "string",
+          label: "Navigation Typography",
+          name: "navTypeStyle",
+          ui: {
+            component: "typeControl"
+          }
+        },
+        {
+          label: "",
+          name: "navigationTitle",
+          type: "string",
+          ui: {
+            component: "ruledTitle",
+          },
+        },
+        {
+          label: "Navigation Links",
           description: "Additional links in the header",
           name: "navItems",
           list: true,
@@ -147,44 +203,61 @@ export const globalCollectionSchema: any = {
           ]
         },
         {
-          label: "Alignment",
-          name: "navAlignment",
-          type: "string",
+          label: "Navigation Buttons",
+          name: "navButtons",
+          list: true,
+          type: "object",
           ui: {
-            component: "select",
+            component: "itemListField",
+            defaultItem: {
+              label: "Nav Item",
+              link: "/",
+            },
           },
-          options: [
-            { label: "Left", value: "text-left" },
-            { label: "Center", value: "text-center" },
-            { label: "Right", value: "text-right" },
-          ],
-        },
-        {
-          type: "string",
-          label: "Navigation Style",
-          name: "navTypeStyle",
-          ui: {
-            component: "typeControl"
-          }
-        },
-        {
-          label: "Mobile Background Color",
-          name: "navBackgroundColor",
-          type: "string",
-          ui: {
-            component: "fillControl"
-          }
-        },
-        {
-          label: "Header Padding",
-          name: "padding",
-          type: "string",
-          ui: {
-            component: "paddingControl",
-          }
+          fields: [
+            {
+              label: "Label",
+              name: "label",
+              type: "string"
+            }, {
+              label: "Link",
+              name: "link",
+              type: "string",
+            },
+            {
+              type: "string",
+              label: "Icon",
+              name: "icon",
+              ui: {
+                component: "select",
+              },
+              options: iconOptions,
+            },
+            {
+              type: "string",
+              label: "Button Style",
+              name: "style",
+              ui: {
+                component: "buttonControl",
+              },
+            },
+          ]
         },
       ]
-    },          
+    },
+    {
+      type: "string",
+      label: "Footer Nav",
+      description: "Mirror the navigation in the footer",
+      name: "footerNav",
+      ui: {
+        component: "select",
+      },
+      options: [
+        { label: "True", value: "true" },
+        { label: "False", value: "false" },
+      ],
+    },
     {
       type: "object",
       list: true,

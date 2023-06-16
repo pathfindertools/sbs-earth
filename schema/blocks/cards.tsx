@@ -1,4 +1,5 @@
 import { buttonsSchema } from "../buttons"
+import { iconOptions } from "../options"
 import { backgroundSchema } from "../background"
 import { contentSchema } from "../content"
 import { navigationLabelSchema } from "../navigation-label";
@@ -22,6 +23,7 @@ export const cardsBlockSchema: any = {
         alignment: "flex-col-reverse items-start gap-6",
         padding: "pt-20 pb-20 pr-20 pl-20",
         featureContent: "w-1/2 min-h-0 text-left",
+        buttonsLayout: "flex-row gap-4",
         labelStyles: "text-black",
         headlineStyles: "text-black",
         subheadStyles: "text-black",
@@ -78,6 +80,14 @@ export const cardsBlockSchema: any = {
           ui: {
             component: "featureContentControl",
           }
+        },
+        {
+          label: "Buttons",
+          name: "buttonsLayout",
+          type: "string",
+          ui: {
+            component: "buttonsLayoutControl",
+          },
         },
         ...typographySchema
       ],
@@ -157,11 +167,20 @@ export const cardsBlockSchema: any = {
         },
         {
           type: "string",
-          label: "Button Type",
+          label: "Button Style",
           name: "buttonType",
           ui: {
             component: "buttonControl",
           },
+        },
+        {
+          type: "string",
+          label: "Button Icon",
+          name: "buttonIcon",
+          ui: {
+            component: "select",
+          },
+          options: iconOptions,
         },
         {
           label: "Layout",
@@ -197,6 +216,9 @@ export const cardsBlockSchema: any = {
       label: "Cards",
       name: "items",
       list: true,
+      itemProps: (item) => ({
+        label: item.headline,
+      }),
       fields: [
         imageSchema,
         ...contentSchema,

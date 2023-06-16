@@ -3,6 +3,7 @@ import { GroupListField, BlocksFieldPlugin } from 'tinacms'
 import AlignmentControl from './components/tina/AlignmentControl'
 import BorderControl from './components/tina/BorderControl'
 import ButtonControl from './components/tina/ButtonControl'
+import ButtonsLayoutControl from './components/tina/ButtonsLayoutControl'
 import ButtonTypographyControl from './components/tina/ButtonTypographyControl'
 import CardAlignmentControl from './components/tina/CardAlignmentControl'
 import ColorControl from './components/tina/ColorControl'
@@ -22,13 +23,15 @@ export const SectionListItemsPlugin = {
   Component: (props) => {
     const itemProps = (item) => {
       const templateNames = {
-        accordian: 'Accordian',
+        accordion: 'Accordion',
         banner: 'Banner',
         cards: 'Cards',
         embed: 'Embed',
         eventSchedule: 'Event Schedule',
         eventTimeline: 'Event Timeline',
         feature: 'Feature',
+        speakers: 'Speakers',
+        sponsors: 'Sponsors',
         tailwindCards: 'Cards TW',
         tailwindFeature: 'Feature TW',
       }
@@ -102,6 +105,12 @@ export const buttonControlFieldPlugin = {
   Component: ButtonControl,
   __type: 'field',
   name: 'buttonControl',
+}
+
+export const buttonsLayoutControlFieldPlugin = {
+  Component: ButtonsLayoutControl,
+  __type: 'field',
+  name: 'buttonsLayoutControl',
 }
 
 export const featureContentControlPlugin = {
