@@ -226,15 +226,21 @@ blocks:
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/shadrin.jpg
+        label: ''
         headline: Alexey Shadrin
         subhead: Evercity
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/varshney.jpeg
+        label: ''
         headline: Isha Varshney
         subhead: Celo Foundation
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/geisenberger.jpeg
+        label: ''
         headline: Wes Geisenberger
         subhead: HBAR Foundation
         body: ''
@@ -478,6 +484,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
