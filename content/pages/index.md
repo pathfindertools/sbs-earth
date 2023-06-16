@@ -166,7 +166,9 @@ blocks:
         headline: Kirsteen Harrison
         subhead: Zumo
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/alex-paris.png
+        label: ''
         headline: Alex Paris
         subhead: UNFCCC
         body: ''
@@ -458,6 +460,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
