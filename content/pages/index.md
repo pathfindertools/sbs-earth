@@ -165,6 +165,7 @@ blocks:
         label: ''
         headline: Kirsteen Harrison
         subhead: Zumo
+        body: ''
       - label: ''
         headline: Alex Paris
         subhead: UNFCCC
@@ -172,6 +173,7 @@ blocks:
       - label: ''
         headline: Killian Daly
         subhead: EnergyTag
+        body: ''
       - label: ''
         headline: Jaye Connolly-LaBelle
         subhead: Caelum Resources
@@ -179,64 +181,88 @@ blocks:
       - label: ''
         headline: Peter Rosberg
         subhead: Ripple
+        body: ''
       - label: ''
         headline: Joshua Soloway
         subhead: Ethicstream
+        body: ''
       - label: ''
         headline: Sebastien Hess
         subhead: Block Green
+        body: ''
       - label: ''
         headline: Doug Miller
         subhead: Clean Energy Buyers Institute
+        body: ''
       - label: ''
         headline: John X
         subhead: Toucan Protocol
+        body: ''
       - label: ''
         headline: Simge Sandal
         subhead: GainForest
+        body: ''
       - label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
+        body: ''
       - label: ''
         headline: Alexey Shadrin
         subhead: Evercity
+        body: ''
       - label: ''
         headline: Isha Varshney
         subhead: Celo Foundation
+        body: ''
       - label: ''
         headline: Wes Geisenberger
         subhead: HBAR Foundation
+        body: ''
       - label: ''
         headline: Gregory Landua
         subhead: Regen Network
+        body: ''
       - label: ''
         headline: Angie Maguire
         subhead: Protocol Labs
+        body: ''
       - label: ''
         headline: Ryan Thomas
         subhead: Simbiotica Finance
+        body: ''
       - label: ''
         headline: Sam Flanagan
         subhead: Web3ForGood
+        body: ''
       - label: ''
         headline: Erin Murphy
         subhead: Topl
+        body: ''
       - label: ''
         headline: Marc Johnson
         subhead: Filecoin Green
+        body: ''
       - label: ''
         headline: Kalyani Inampudi
         subhead: ESG and Carbon Consultant
+        body: ''
       - label: ''
         headline: Fikriye Colette Kaya
         subhead: 'CERN, Tufts University'
-      - {}
-      - {}
+        body: ''
+      - label: ''
+        headline: Jonathan Dotan
+        subhead: EQTY Lab
+        body: ''
+      - label: ''
+        headline: Jason Kaasovic
+        subhead: Web3 Renewables
+        body: ''
       - image:
           src: /uploads/avatar.jpg
         label: ''
-        headline: Name Name
-        subhead: Title
+        headline: Akshay Yeleswarapu
+        subhead: de-plan ostrom
         body: ''
       - image:
           src: /uploads/avatar.jpg
@@ -432,6 +458,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
