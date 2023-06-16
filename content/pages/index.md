@@ -373,9 +373,10 @@ blocks:
     _template: speakers
   - style:
       alignment: 'flex-col items-center '
-      padding: pt-0 pb-0 pr-10 pl-10
+      padding: pt-16 pb-32 pr-10 pl-10
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-center
+      buttonsLayout: 'flex-row  '
       labelStyles: text-black undefined undefined
       headlineStyles: text-black mg-hidden undefined
       subheadStyles: text-black undefined undefined
@@ -391,91 +392,6 @@ blocks:
         link: /
         buttonStyle: outline
     _template: feature
-  - style:
-      alignment: flex-col-reverse items-center gap-6
-      padding: 'pt-32 pb-40 pr-10 pl-10 sm:pt-16 sm:pb-12 sm:pr-5 sm:pl-5'
-      featureContent: w-full min-h-0 text-center
-      buttonsLayout: 'flex-row  '
-      labelStyles: text-black undefined undefined
-      headlineStyles: text-white mg-headline-medium undefined
-      subheadStyles: text-white undefined undefined
-      textStyles: text-white undefined undefined
-    cardStyle:
-      fillStyles: ' opacity-100'
-      fillStylesActive: ' opacity-100'
-      padding: pt-5 pb-5 pr-0 pl-0
-      borderStyles: border-gray border-1
-      headlineStyles: text-white mg-copy-large mb-0
-      subheadStyles: text-black undefined undefined
-      textStyles: text-white mg-copy mb-0
-    background:
-      fillStyles: ' opacity-100'
-      src: ''
-      style: bg-cover
-      position: bg-center
-      ornaments:
-        - src: /uploads/green-blur.svg
-          alignment: bottom
-          xOffset: '-700'
-          yOffset: '100'
-        - src: /uploads/blue-blur.svg
-          alignment: bottom
-          width: '400'
-          xOffset: '-600'
-          yOffset: '-100'
-        - src: /uploads/green-blur.svg
-          alignment: bottom
-          xOffset: '700'
-          yOffset: '150'
-        - src: /uploads/blue-blur.svg
-          alignment: bottom
-          width: ''
-          height: '600'
-          xOffset: '500'
-          yOffset: '300'
-        - src: /uploads/abstract-2.png
-          alignment: bottom
-          xOffset: '450'
-          yOffset: '-100'
-    label: ''
-    headline: FAQ
-    subhead: ''
-    body: ''
-    items:
-      - headline: Who is it for? Why should I attend?
-        subhead: ''
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
-          vehicula ut id elit.
-      - headline: Sounds great! How do I participate?
-        subhead: ''
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
-          vehicula ut id elit.
-      - headline: What does the ticket include?
-        subhead: ''
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
-          vehicula ut id elit.
-      - headline: Can I organize a side event?
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
-          vehicula ut id elit.
-      - headline: How do I reach the organizers
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis,
-          est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-          sem nec elit. Donec sed odio dui. Nullam id dolor id nibh ultricies
-          vehicula ut id elit.
-    _template: accordion
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
       headlineStyles: text-white mg-headline-medium undefined
@@ -504,6 +420,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
