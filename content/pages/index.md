@@ -412,7 +412,7 @@ blocks:
     _template: sponsors
 backgroundColor: white
 meta:
-  title: SBS Earth | August 16. 2023
+  title: SBS Earth | August 16 2023
   description: >-
     Join us for the inaugural virtual Sustainable Blockchain Summit, a
     pioneering event that unites industry leaders, innovators, and
