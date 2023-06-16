@@ -208,15 +208,21 @@ blocks:
         headline: Doug Miller
         subhead: Clean Energy Buyers Institute
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/john-x.png
+        label: ''
         headline: John X
         subhead: Toucan Protocol
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/sandal.jpeg
+        label: ''
         headline: Simge Sandal
         subhead: GainForest
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/ransil.jpg
+        label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
@@ -472,6 +478,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
