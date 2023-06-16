@@ -406,12 +406,12 @@ blocks:
     _template: sponsors
   - style:
       alignment: 'flex-col-reverse items-center '
-      padding: pt-20 pb-5 pr-10 pl-10
+      padding: 'pt-20 pb-5 pr-10 pl-10 sm:pt-10 sm:pb-7 sm:pr-5 sm:pl-5'
       featureImage: '  mx-auto'
       featureContent: w-full min-h-0 text-left
-      buttonsLayout: 'flex-wrap gap-7 '
+      buttonsLayout: 'flex-wrap gap-7  sm:flex-wrap sm:gap-3 sm:'
       labelStyles: text-black undefined undefined
-      headlineStyles: text-white mg-copy-small mb-5
+      headlineStyles: text-white mg-copy-small mb-1
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
     background:
@@ -419,6 +419,7 @@ blocks:
       position: bg-center
     headline: Previous SBS Events
     subhead: ''
+    body: ''
     buttons:
       - label: SBS Boston
         link: 'https://boston23.sbs.tech/'
@@ -449,9 +450,3 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
-
-
-
-
