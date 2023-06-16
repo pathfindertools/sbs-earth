@@ -323,49 +323,49 @@ blocks:
         subhead: Verra
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/harvey.jpeg
         label: ''
         headline: Ned Harvey
         subhead: Digital Gaia
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/moore.png
         label: ''
         headline: Caitlin Moore
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/kimbwala.jpeg
         label: ''
         headline: Gloria Kimbwala
         subhead: Buidlbox.io
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/kalaw.jpeg
         label: ''
         headline: Angelo Kalaw
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/edmonds.png
         label: ''
         headline: Nick Edmonds
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/ranganathan.png
         label: ''
         headline: Nirvaan Ranganathan
         subhead: Climate Collective
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/venkatakrishnan.png
         label: ''
         headline: Mukund Venkatakrishnan
         subhead: Blueprint Finance
         body: ''
       - image:
-          src: /uploads/avatar.jpg
+          src: /uploads/kanter.jpeg
         label: ''
         headline: Maxwell Kanter
         subhead: Gitcoin
@@ -504,6 +504,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
