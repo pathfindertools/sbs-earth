@@ -41,7 +41,7 @@ const Speaker = ({ data, cardstyle, index, parentField = "" }) => {
           styles = {cardstyle}
           width = "w-full"
           parentField = {parentField}
-          className = ""
+          className = "h-full justify-between"
         />
       </div>
     </div>
