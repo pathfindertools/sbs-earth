@@ -172,19 +172,27 @@ blocks:
         headline: Alex Paris
         subhead: UNFCCC
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/killian-daly2.jpg
+        label: ''
         headline: Killian Daly
         subhead: EnergyTag
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/jaye2.jpeg
+        label: ''
         headline: Jaye Connolly-LaBelle
         subhead: Caelum Resources
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/1516158845713 (1).jpeg
+        label: ''
         headline: Peter Rosberg
         subhead: Ripple
         body: ''
-      - label: ''
+      - image:
+          src: /uploads/soloway.jpg
+        label: ''
         headline: Joshua Soloway
         subhead: Ethicstream
         body: ''
@@ -460,6 +468,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
