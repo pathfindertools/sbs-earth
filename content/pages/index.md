@@ -33,7 +33,7 @@ blocks:
       padding: 'pt-10 pb-14 pr-10 pl-10 sm:pt-10 sm:pb-14 sm:pr-5 sm:pl-5'
       featureImage: '  mr-auto'
       featureContent: 'w-2/3 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
-      buttonsLayout: 'flex-row gap-7 '
+      buttonsLayout: 'flex-wrap gap-4  sm:flex-col sm:gap-4 sm:w-60'
       labelStyles: text-accent3 mg-copy mb-2.5
       headlineStyles: text-white mg-headline-large undefined
       subheadStyles: text-white mg-headline-small mb-20
@@ -504,25 +504,5 @@ background:
   style: bg-repeat
   position: bg-center
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
