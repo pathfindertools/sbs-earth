@@ -40,7 +40,7 @@ export const Layout = ({ rawData, children }) => {
         
        {/* Plausible Analytics */}
         { global.siteUrl && global.analytics === "plausible" && (
-          <script defer data-domain={global.siteUrl} src="https://plausible.io/js/script.js"></script>
+          <script defer data-domain={global.siteUrl} src="https://plausible.io/js/script.outbound-links.js"></script>
         )}
 
         {/* Typekit Project Link */ }
