@@ -154,218 +154,218 @@ blocks:
       SBS Earth speaker lineup to be announced soon.
     items:
       - image:
-          src: /uploads/jason jay.png
+          src: /uploads/jasonjay.webp
           alt: Jason Jay
         label: ''
         headline: Jason Jay
         subhead: MIT Sloan School of Management
         body: ''
       - image:
-          src: /uploads/kirsteen-harrison.png
+          src: /uploads/kirsteen-harrison.webp
         label: ''
         headline: Kirsteen Harrison
         subhead: Zumo
         body: ''
       - image:
-          src: /uploads/alex-paris.png
+          src: /uploads/alex-paris.webp
         label: ''
         headline: Alex Paris
         subhead: UNFCCC
         body: ''
       - image:
-          src: /uploads/killian-daly2.jpg
+          src: /uploads/killian-daly2.webp
         label: ''
         headline: Killian Daly
         subhead: EnergyTag
         body: ''
       - image:
-          src: /uploads/jaye2.jpeg
+          src: /uploads/jaye2.webp
         label: ''
         headline: Jaye Connolly-LaBelle
         subhead: Caelum Resources
         body: ''
       - image:
-          src: /uploads/1516158845713 (1).jpeg
+          src: /uploads/peter-rosberg.webp
         label: ''
         headline: Peter Rosberg
         subhead: Ripple
         body: ''
       - image:
-          src: /uploads/soloway.jpg
+          src: /uploads/soloway.webp
         label: ''
         headline: Joshua Soloway
         subhead: Ethicstream
         body: ''
       - image:
-          src: /uploads/hess.jpeg
+          src: /uploads/hess.webp
         label: ''
         headline: Sebastien Hess
         subhead: Block Green
         body: ''
       - image:
-          src: /uploads/miller.png
+          src: /uploads/miller.webp
         label: ''
         headline: Doug Miller
         subhead: Clean Energy Buyers Institute
         body: ''
       - image:
-          src: /uploads/john-x.png
+          src: /uploads/john-x.webp
         label: ''
         headline: John X
         subhead: Toucan Protocol
         body: ''
       - image:
-          src: /uploads/sandal.jpeg
+          src: /uploads/sandal.webp
         label: ''
         headline: Simge Sandal
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/ransil.jpg
+          src: /uploads/ransil.webp
         label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/shadrin.jpg
+          src: /uploads/shadrin.webp
         label: ''
         headline: Alexey Shadrin
         subhead: Evercity
         body: ''
       - image:
-          src: /uploads/varshney.jpeg
+          src: /uploads/varshney.webp
         label: ''
         headline: Isha Varshney
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/geisenberger.jpeg
+          src: /uploads/geisenberger.webp
         label: ''
         headline: Wes Geisenberger
         subhead: HBAR Foundation
         body: ''
       - image:
-          src: /uploads/landua.png
+          src: /uploads/landua.webp
         label: ''
         headline: Gregory Landua
         subhead: Regen Network
         body: ''
       - image:
-          src: /uploads/maguire.png
+          src: /uploads/maguire.webp
         label: ''
         headline: Angie Maguire
         subhead: Protocol Labs
         body: ''
       - image:
-          src: /uploads/thomas.png
+          src: /uploads/thomas.webp
         label: ''
         headline: Ryan Thomas
         subhead: Simbiotica Finance
         body: ''
       - image:
-          src: /uploads/flanagan.jpeg
+          src: /uploads/flanagan.webp
         label: ''
         headline: Sam Flanagan
         subhead: Web3ForGood
         body: ''
       - image:
-          src: /uploads/murphy.png
+          src: /uploads/murphy.webp
         label: ''
         headline: Erin Murphy
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/johnson.jpeg
+          src: /uploads/johnson.webp
         label: ''
         headline: Marc Johnson
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/inampudi.png
+          src: /uploads/inampudi.webp
         label: ''
         headline: Kalyani Inampudi
         subhead: ESG and Carbon Consultant
         body: ''
       - image:
-          src: /uploads/kaya.png
+          src: /uploads/kaya.webp
         label: ''
         headline: Fikriye Colette Kaya
         subhead: 'CERN, Tufts University'
         body: ''
       - image:
-          src: /uploads/dotan.jpeg
+          src: /uploads/dotan.webp
         label: ''
         headline: Jonathan Dotan
         subhead: EQTY Lab
         body: ''
       - image:
-          src: /uploads/kaasovic.png
+          src: /uploads/kaasovic.webp
         label: ''
         headline: Jason Kaasovic
         subhead: Web3 Renewables
         body: ''
       - image:
-          src: /uploads/yeleswarapu.png
+          src: /uploads/yeleswarapu.webp
         label: ''
         headline: Akshay Yeleswarapu
         subhead: de-plan ostrom
         body: ''
       - image:
-          src: /uploads/aureliuslol.png
+          src: /uploads/aureliuslol.webp
         label: ''
         headline: Marcus Aurelius
         subhead: KlimaDAO
         body: ''
       - image:
-          src: /uploads/clement.jpeg
+          src: /uploads/clement.webp
         label: ''
         headline: Benoît Clément
         subhead: Verra
         body: ''
       - image:
-          src: /uploads/harvey.jpeg
+          src: /uploads/harvey.webp
         label: ''
         headline: Ned Harvey
         subhead: Digital Gaia
         body: ''
       - image:
-          src: /uploads/moore.png
+          src: /uploads/moore.webp
         label: ''
         headline: Caitlin Moore
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/kimbwala.jpeg
+          src: /uploads/kimbwala.webp
         label: ''
         headline: Gloria Kimbwala
         subhead: Buidlbox.io
         body: ''
       - image:
-          src: /uploads/kalaw.jpeg
+          src: /uploads/kalaw.webp
         label: ''
         headline: Angelo Kalaw
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/edmonds.png
+          src: /uploads/edmonds.webp
         label: ''
         headline: Nick Edmonds
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/ranganathan.png
+          src: /uploads/ranganathan.webp
         label: ''
         headline: Nirvaan Ranganathan
         subhead: Climate Collective
         body: ''
       - image:
-          src: /uploads/venkatakrishnan.png
+          src: /uploads/venkatakrishnan.webp
         label: ''
         headline: Mukund Venkatakrishnan
         subhead: Blueprint Finance
         body: ''
       - image:
-          src: /uploads/kanter.jpeg
+          src: /uploads/kanter.webp
         label: ''
         headline: Maxwell Kanter
         subhead: Gitcoin
