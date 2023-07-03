@@ -1,4 +1,6 @@
 import React from 'react';
+import { Scene } from 'react-scrollmagic';
+import { Tween } from 'react-gsap';
 
 const anchorPosition = {
   "center": "top-1/2 left-1/2",
@@ -45,13 +47,29 @@ export const Ornament = ({
 
   return (
     <div className={`absolute ${anchorPosition[alignment]}`} style={wrapStyle} >
-      <img
-        className="absolute"
-        src={src}
-        style={imgStyle}
-        width={width}
-        height={height}
-      />
+      <Scene
+        indicators={true}
+        triggerHook="1"
+        offset="0"
+        duration="100%"
+      >
+        <Tween
+          from={{
+            scale: 1,
+          }}
+          to={{
+            scale: 1.3,
+          }}
+        >            
+          <img
+            className='absolute'
+            src={src}
+            style={imgStyle}
+            width={width}
+            height={height}
+          />
+        </Tween>
+      </Scene>
     </div>
   );
 };
