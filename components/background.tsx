@@ -11,6 +11,7 @@ export const Background = ({
     ornaments: []
   },
 }) => {
+
   return (
     <>
       <div className={`background absolute inset-0 -z-2 ${background?.fillStyles}`}></div>
@@ -31,15 +32,7 @@ export const Background = ({
         <div className="ornaments absolute inset-0 -z-1">
           {background.ornaments.map(function (ornament, index) {
             return (
-              <Ornament
-                key={index}
-                src={ornament.src || ""}
-                width={ornament.width || ""}
-                height={ornament.height || ""}
-                alignment={ornament.alignment || "center"}
-                xOffset={ornament.xOffset || 0}
-                yOffset={ornament.yOffset || 0}
-              />
+              <Ornament key={index} props={ornament} />
             )
           })}
         </div>

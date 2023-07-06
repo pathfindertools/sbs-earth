@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { Scene } from 'react-scrollmagic';
 import { Tween } from 'react-gsap';
 
@@ -27,49 +27,64 @@ const alignmentTransform = {
 };
 
 export const Ornament = ({
-  src,
-  width,
-  height,
-  alignment,
-  xOffset,
-  yOffset,
+  props
 }) => {
   const wrapStyle = {
-    transform: `translate(${xOffset || 0}px,${yOffset || 0}px)`,
+    transform: `translate(${props.xOffset || 0}px,${props.yOffset || 0}px)`,
   };
 
   const imgStyle = {
-    width: `${width}px`,
-    height: `${height}px`,
-    transform: `translate(${alignmentTransform[alignment]})`,
+    width: `${props.width}px`,
+    height: `${props.height}px`,
+    transform: `translate(${alignmentTransform[props.alignment]})`,
     maxWidth: "none"
   };
 
-  return (
-    <div className={`absolute ${anchorPosition[alignment]}`} style={wrapStyle} >
-      <Scene
-        indicators={true}
-        triggerHook="1"
-        offset="0"
-        duration="100%"
-      >
-        <Tween
-          from={{
-            scale: 1,
-          }}
-          to={{
-            scale: 1.3,
-          }}
-        >            
-          <img
-            className='absolute'
-            src={src}
-            style={imgStyle}
-            width={width}
-            height={height}
-          />
-        </Tween>
-      </Scene>
-    </div>
-  );
+  const image = (
+    <img
+      className='absolute'
+      src={props.src}
+      style={imgStyle}
+      width={props.width}
+      height={props.height}
+    />
+  )
+  
+  if (props.animationType === "scroll") {
+    return (
+      <div className={`absolute ${anchorPosition[props.alignment]}`} style={wrapStyle} >
+        <Scene
+          indicators={true}
+          triggerHook="1"
+          offset={props.scrollOffset || 0}
+          duration={props.duration || 0}
+        >
+          <Tween
+            from={{
+              x: props.startOffsetX || 0,
+              y: props.startOffsetY || 0,
+              opacity: props.startOpacity || 1,
+              scale: props.startScale || 1,
+              rotation: props.startRotation || 0,
+            }}
+            to={{
+              x: props.endOffsetX || 0,
+              y: props.endOffsetY || 0,
+              opacity: props.endOpacity || 1,
+              scale: props.endScale || 1,
+              rotation: props.endRotation || 0,
+            }}
+          >            
+            {image}
+          </Tween>
+        </Scene>
+      </div>
+    )
+  } else {
+    return (
+      <div className={`absolute ${anchorPosition[props.alignment]}`} style={wrapStyle} >
+        {image}
+      </div>
+    )
+  }
 };
