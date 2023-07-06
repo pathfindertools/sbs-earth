@@ -100,7 +100,7 @@ export const Speakers = ({ data, parentField = "" }) => {
                 </Tween>
               </Reveal>
             ))}
-          </div>          
+          </div>
         </div>
         <div className={`flex-none justify-center`}>
           <Content
