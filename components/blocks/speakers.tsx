@@ -67,7 +67,7 @@ export const Speakers = ({ data, parentField = "" }) => {
         <div id="speaker-cards" className={`${wrapClasses(style)}`}>
           <div className={`grid ${data.cardStyle.grid}`}>
             {rows.map((row) => (
-              <Reveal repeat>
+              <Reveal>
                 <Tween
                   from={{
                     opacity: 0,
