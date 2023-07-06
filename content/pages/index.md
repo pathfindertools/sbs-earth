@@ -88,7 +88,7 @@ blocks:
           height: '430'
           xOffset: '-600'
           yOffset: ''
-          animationType: scroll
+          animationType: none
           duration: '1600'
           scrollOffset: '-500'
           startOffsetY: '0'
@@ -461,6 +461,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
