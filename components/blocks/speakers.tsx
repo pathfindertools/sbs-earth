@@ -81,7 +81,7 @@ export const Speakers = ({ data, parentField = "" }) => {
             }
           </ScrollTrigger> */}
             {rows.map((row) => (
-              <Reveal>
+              <Reveal repeat>
                 <Tween
                   from={{
                     opacity: 0,

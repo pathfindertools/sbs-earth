@@ -12,6 +12,7 @@ blocks:
       textStyles: 'text-white mg-headline-small '
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       src: ''
       style: bg-repeat
       position: bg-center
@@ -20,7 +21,15 @@ blocks:
           alignment: center
           width: '600'
           xOffset: '-600'
-          yOffset: '0'
+          yOffset: '-300'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '1200'
+          startScale: '1'
+          startRotation: '0'
+          endOffsetY: '300'
+          endScale: '1.5'
+          endRotation: '-30'
     image:
       src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
@@ -40,6 +49,7 @@ blocks:
       textStyles: text-white mg-copy-small mb-12
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
       ornaments:
@@ -47,6 +57,11 @@ blocks:
           alignment: center
           xOffset: '600'
           yOffset: '-50'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startRotation: '15'
+          endRotation: '-25'
     image:
       src: /uploads/virtual-label.svg
     label: ''
@@ -87,10 +102,10 @@ blocks:
           alignment: bottom
           height: '430'
           xOffset: '-600'
-          yOffset: ''
-          animationType: none
-          duration: '1600'
-          scrollOffset: '-500'
+          yOffset: '-600'
+          animationType: scroll
+          duration: '1200'
+          scrollOffset: '100'
           startOffsetY: '0'
           startOffsetX: '0'
           startOpacity: '0'
@@ -127,6 +142,7 @@ blocks:
       textStyles: text-black mg-copy undefined
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       src: ''
       style: bg-cover
       position: bg-center
@@ -134,27 +150,72 @@ blocks:
         - src: /uploads/clematis.webp
           alignment: bottom
           xOffset: '-600'
-          yOffset: '50'
+          yOffset: '-550'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-600'
+          startOffsetY: '0'
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '0'
+          endScale: '1'
+          endRotation: '20'
         - src: /uploads/abstract-1.png
           alignment: top
           width: '450'
           xOffset: '-650'
           yOffset: '170'
-        - src: /uploads/blue-blur.svg
-          alignment: bottom
-          xOffset: '-750'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: '-50'
+          startScale: '.8'
+          startRotation: '0'
+          endScale: '1'
+          endRotation: '40'
         - src: /uploads/blue-blur.svg
           alignment: top
           xOffset: '700'
           yOffset: '200'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOpacity: '0.7'
+          startScale: '.8'
+          endOffsetY: 5-
+          endOffsetX: '50'
+          endScale: '1.5'
         - src: /uploads/green-blur.svg
           alignment: top
           xOffset: '750'
           yOffset: '-100'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: ''
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startOpacity: '0.8'
+          startScale: '.7'
+          startRotation: '0'
+          endOffsetX: '-200'
+          endScale: '1.4'
+          endRotation: '10'
         - src: /uploads/carnation.webp
           alignment: top
           xOffset: '600'
           yOffset: '250'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: ''
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '-100'
+          endScale: '1'
+          endRotation: '-20'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          xOffset: '-750'
     label: ''
     headline: Previous Speakers
     subhead: ''
@@ -461,6 +522,16 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
 
 
 

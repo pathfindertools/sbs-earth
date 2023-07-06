@@ -1,6 +1,4 @@
-import { useEffect } from 'react';
-import { Scene } from 'react-scrollmagic';
-import { Tween } from 'react-gsap';
+import { Tween, ScrollTrigger } from 'react-gsap';
 
 const anchorPosition = {
   "center": "top-1/2 left-1/2",
@@ -53,11 +51,10 @@ export const Ornament = ({
   if (props.animationType === "scroll") {
     return (
       <div className={`absolute ${anchorPosition[props.alignment]}`} style={wrapStyle} >
-        <Scene
-          indicators={true}
-          triggerHook="1"
-          offset={props.scrollOffset || 0}
-          duration={props.duration || 0}
+        <ScrollTrigger
+          start={`${Number(props.scrollOffset) || 0}px bottom`}
+          end={`${Number(props.scrollOffset) + Number(props.duration) || 0}px bottom`}
+          scrub={0.5}
         >
           <Tween
             from={{
@@ -77,7 +74,7 @@ export const Ornament = ({
           >            
             {image}
           </Tween>
-        </Scene>
+        </ScrollTrigger>
       </div>
     )
   } else {
