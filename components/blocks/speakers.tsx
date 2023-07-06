@@ -2,7 +2,7 @@ import { forwardRef } from 'react';
 import { hasWord } from '../../helpers/utilities';
 import { Section } from '../section';
 import { Content } from '../content';
-import { Tween, ScrollTrigger, Reveal } from 'react-gsap';
+import { Tween, Reveal } from 'react-gsap';
 
 const wrapWidthClasses = (isVertical: boolean, isMobile: boolean) => {
   const mobilePrefix = isMobile ? 'sm:' : ''
@@ -16,8 +16,14 @@ const wrapClasses = (style) => {
   const mobileWidthClasses = wrapWidthClasses(isVerticalMobile, true)
   return `relative h-full flex-1 ${widthClasses} ${mobileWidthClasses}`
 }
+interface SpeakerProps {
+  data: any;
+  cardstyle: any;
+  index: number;
+  parentField?: string;
+}
 
-export const Speaker = forwardRef(({ data, cardstyle, index, parentField = "" }, ref) => (
+export const Speaker = forwardRef<HTMLDivElement, SpeakerProps>(({ data, cardstyle, index, parentField = "" }, ref) => (
   <div ref={ref} className={`relative w-full flex py-7 ${cardstyle?.alignment}`} data-tinafield={`${parentField}.${index}`}>
     <div className={`${cardstyle?.fillStyles} absolute inset-0 -z-1`} />
     {data.image?.src && (
@@ -60,26 +66,6 @@ export const Speakers = ({ data, parentField = "" }) => {
       <div className={`relative flex w-full max-w-site-full mx-auto ${style?.padding} ${style?.alignment}`}>
         <div id="speaker-cards" className={`${wrapClasses(style)}`}>
           <div className={`grid ${data.cardStyle.grid}`}>
-            {/* <ScrollTrigger start="-200px center" end="200px center" scrub={0.5} markers>
-            {data.items && data.items.map(function (block, index) {
-              return (
-                <Tween
-                  from={{
-                    opacity: 0,
-                    y: 150,
-                  }}
-                  to={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  stagger={0.3}
-                >
-                  <Speaker key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />
-                </Tween>
-              )
-            })
-            }
-          </ScrollTrigger> */}
             {rows.map((row) => (
               <Reveal repeat>
                 <Tween
