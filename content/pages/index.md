@@ -88,6 +88,17 @@ blocks:
           height: '430'
           xOffset: '-600'
           yOffset: ''
+          animationType: scroll
+          duration: '1600'
+          scrollOffset: '-500'
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startOpacity: '0'
+          startScale: '1'
+          endOffsetY: '0'
+          endOffsetX: '0'
+          endOpacity: '1'
+          endScale: '1.5'
     headline: ''
     subhead: ''
     body: >
@@ -450,3 +461,10 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
