@@ -121,10 +121,28 @@ function buttonClass(obj) {
       border-radius: ${getRadius(obj)};
       text-align: center;
       ${getBorder(obj.primaryBorder)};
+      position: relative;
+      transition: opacity .4s ease-in-out;
     }
     .btn-${slugify(obj.label)} svg {
       fill: currentColor;
       height: ${getIconSize(obj.iconSize)};
+    }
+    .btn-${slugify(obj.label)}:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      opacity: 0;
+      box-shadow:
+        inset 0 0 8px 0px rgba(255, 255, 255, .7),
+        0 0 12px 0px rgba(255, 255, 255, 1),
+        inset 0 0 4px 0px rgba(255, 255, 255, .7),
+        0 0 6px 0px rgba(255, 255, 255, 1);;
+      transition: opacity .3s ease-in-out;
+    }
+    .btn-${slugify(obj.label)}:hover::before {
+      opacity: 1;
     }`
 }
 
