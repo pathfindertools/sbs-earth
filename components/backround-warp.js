@@ -2,8 +2,8 @@ import { useRef, useEffect, useState } from 'react'
 import { Stage, useApp, SimpleMesh } from '@pixi/react'
 import * as PIXI from 'pixi.js';
 
-const w = 1400;
-const h = 737;
+const w = 1800;
+const h = 948;
 
 const WarpedImage = ({
   image=""

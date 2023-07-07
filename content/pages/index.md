@@ -57,11 +57,11 @@ blocks:
           alignment: center
           xOffset: '600'
           yOffset: '-50'
-          animationType: scroll
+          animationType: none
           duration: '2500'
           scrollOffset: '-500'
-          startRotation: '15'
-          endRotation: '-25'
+          startRotation: ''
+          endRotation: ''
     image:
       src: /uploads/virtual-label.svg
     label: ''
@@ -99,22 +99,104 @@ blocks:
       style: bg-cover
       position: bg-center
       ornaments:
-        - src: /uploads/dandelion.webp
+        - src: /uploads/dandelions.webp
           alignment: bottom
-          height: '430'
-          xOffset: '-600'
-          yOffset: '-600'
+          xOffset: '-608'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          height: '54'
+          xOffset: '-380'
+          yOffset: '-365'
           animationType: scroll
-          duration: '1200'
-          scrollOffset: '100'
+          duration: '2000'
+          scrollOffset: '0'
+          endOffsetY: '-200'
+          endOffsetX: '50'
+          endRotation: '25'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          height: '54'
+          xOffset: '-293'
+          yOffset: '-325'
+          animationType: scroll
+          duration: '2000'
+          scrollOffset: '0'
+          startRotation: ''
+          endOffsetY: '-160'
+          endOffsetX: '50'
+          endRotation: '45'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-380'
+          yOffset: '-430'
+          animationType: scroll
+          duration: '2000'
+          scrollOffset: '0'
           startOffsetY: '0'
           startOffsetX: '0'
-          startOpacity: '0'
-          startScale: '1'
-          endOffsetY: '0'
-          endOffsetX: '0'
-          endOpacity: '1'
-          endScale: '1.5'
+          startRotation: '-110'
+          endOffsetY: '-180'
+          endOffsetX: '-40'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-380'
+          yOffset: '-260'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '50'
+          endOffsetY: '-160'
+          endOffsetX: '-20'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-360'
+          yOffset: '-250'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '45'
+          endOffsetY: '-120'
+          endOffsetX: '20'
+          endRotation: '90'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-420'
+          yOffset: '-320'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '10'
+          endOffsetY: '-90'
+          endOffsetX: '40'
+          endRotation: '70'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-440'
+          yOffset: '-300'
+          animationType: scroll
+          duration: '2000'
+          endOffsetY: '-120'
+          endOffsetX: '-20'
+          endRotation: '-50'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-490'
+          yOffset: '-280'
+          animationType: scroll
+          duration: '2000'
+          startOffsetY: ''
+          startOffsetX: ''
+          startRotation: '-20'
+          endOffsetY: '-100'
+          endOffsetX: '-10'
+          endRotation: '-50'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-430'
+          yOffset: '-270'
+          animationType: scroll
+          duration: '2000'
+          endOffsetY: '-130'
+          endOffsetX: '10'
+          endScale: '1.2'
+          endRotation: '25'
     headline: ''
     subhead: ''
     body: >
@@ -525,6 +607,31 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
