@@ -23,7 +23,7 @@ export const Background = ({
       {background?.src && !background.src.includes(".mp4") && background.animateBackground && (
         <div className="absolute inset-0 -z-2 overflow-hidden text-center">
           <div className="inline-block">
-            <BackgroundWarp image={background.src} />
+            <BackgroundWarp image="./bg-sponsors.jpg" />
           </div>
         </div>
       )}
