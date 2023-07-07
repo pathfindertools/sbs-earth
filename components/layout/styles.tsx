@@ -128,7 +128,7 @@ function buttonClass(obj) {
       fill: currentColor;
       height: ${getIconSize(obj.iconSize)};
     }
-    .btn-${slugify(obj.label)}:before {
+    .btn-${slugify(obj.label)}:not(.btn-footer-link):before {
       content: "";
       position: absolute;
       z-index: -1;

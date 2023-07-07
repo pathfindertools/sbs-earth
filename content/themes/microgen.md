@@ -64,7 +64,7 @@ buttons:
     fill: ' opacity-100'
     typography: >-
       {"color":"white","family":"Inter:wght@400","size":"15","lineHeight":"20","letterSpacing":"0","smSize":"15","smLineHeight":"20","smLetterSpacing":"0"}
-    padding: pt-1.5 pb-1.5 pr-1.5 pl-1.5
+    padding: pt-0 pb-0 pr-0 pl-0
     primaryBorder: border-accent1 border-0
     primaryRounded: rounded
     iconSize: undefined
@@ -77,6 +77,7 @@ fonts:
       fontWeight: '400'
       fontStyle: normal
 ---
+
 
 
 
