@@ -20,6 +20,11 @@ export const backgroundSchema = {
       }
     },
     {
+      type: "boolean",
+      label: "Animate Background",
+      name: "animateBackground",
+    },
+    {
       label: "Image",
       name: "src",
       type: "image",

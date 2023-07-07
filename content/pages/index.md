@@ -94,6 +94,7 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
+      animateBackground: true
       src: /uploads/lead-in-bg.webp
       style: bg-cover
       position: bg-center
@@ -469,6 +470,8 @@ blocks:
       headlineStyles: text-white mg-headline-medium undefined
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
+      animateBackground: true
       src: /uploads/bg-sponsors.jpg
       style: bg-cover
       position: bg-center
@@ -522,6 +525,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 

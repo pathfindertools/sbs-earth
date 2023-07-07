@@ -7,6 +7,7 @@ export const Section = ({
   background = {
     fillStyles: "",
     wrapFillStyles: "",
+    animateBackground: false,
     src: "",
     style: "",
     position: "",
