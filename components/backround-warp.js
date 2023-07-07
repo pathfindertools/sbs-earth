@@ -73,7 +73,7 @@ export default function BackgroundWarp({
   image=""
 }) {
   return (
-    <Stage width={w} height={h} options={{ autoDensity: true, backgroundColor: 0xeef1f5 }}>
+    <Stage width={w} height={h} options={{ autoDensity: true }}>
       <WarpedImage image={image} />
     </Stage>
   );

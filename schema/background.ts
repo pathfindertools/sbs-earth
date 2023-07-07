@@ -20,9 +20,17 @@ export const backgroundSchema = {
       }
     },
     {
-      type: "boolean",
-      label: "Animate Background",
-      name: "animateBackground",
+      label: "Animated Background",
+      name: "animatedBackground",
+      type: "string",
+      ui: {
+        component: "select",
+      },
+      options: [
+        { label: "none", value: "" },
+        { label: "Lead", value: "bg-lead-in.jpg" },
+        { label: "Sponsors", value: "bg-sponsors.jpg" },
+      ],
     },
     {
       label: "Image",

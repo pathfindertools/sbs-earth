@@ -94,8 +94,8 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
-      animateBackground: true
-      src: /uploads/lead-in-bg.webp
+      animatedBackground: bg-lead-in.jpg
+      src: ''
       style: bg-cover
       position: bg-center
       ornaments:
@@ -471,8 +471,8 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
-      animateBackground: true
-      src: /uploads/bg-sponsors.jpg
+      animatedBackground: bg-sponsors.jpg
+      src: ''
       style: bg-cover
       position: bg-center
     partners:
@@ -525,6 +525,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
