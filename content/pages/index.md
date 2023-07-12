@@ -300,80 +300,75 @@ blocks:
           alignment: bottom
           xOffset: '-750'
     label: ''
-    headline: Previous Speakers
+    headline: Speakers
     subhead: ''
     body: >
-      Past SBS events have featured a diverse range of speakers, including
-      representatives from the UNFCCC, UNESCO, government officials, legacy
-      energy industry leaders, NGO's and leaders from web3 and ReFi projects.
-      SBS Earth speaker lineup to be announced soon.
+      SBS Earth will feature a dynamic group of speakers, featuring prominent
+      figures from the legacy energy industry, influential NGOs, experts in
+      carbon management, and leaders in web3 and ReFi projects.
     items:
       - image:
-          src: /uploads/jasonjay.webp
-          alt: Jason Jay
+          src: /uploads/twitter image-min.jpg
         label: ''
-        headline: Jason Jay
-        subhead: MIT Sloan School of Management
+        headline: Saudamini Sharma
+        subhead: Thallo
         body: ''
       - image:
-          src: /uploads/kirsteen-harrison.webp
+          src: /uploads/Me.jpeg
         label: ''
-        headline: Kirsteen Harrison
-        subhead: Zumo
+        headline: Adrian Wons
+        subhead: Senken
         body: ''
       - image:
-          src: /uploads/alex-paris.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.05.29 PM.png
         label: ''
-        headline: Alex Paris
-        subhead: UNFCCC
+        headline: Lyndon Burford
+        subhead: PATH Collective
         body: ''
       - image:
-          src: /uploads/killian-daly2.webp
+          src: /uploads/Adelaine Headshot.jpg
+          alt: Adelaine B.
         label: ''
-        headline: Killian Daly
-        subhead: EnergyTag
+        headline: Adelaine Bhattacharjee
+        subhead: Topl
         body: ''
       - image:
-          src: /uploads/jaye2.webp
+          src: /uploads/IMG_1401.jpeg
         label: ''
-        headline: Jaye Connolly-LaBelle
-        subhead: Caelum Resources
+        headline: Ester Silva
+        subhead: EthBrasil
         body: ''
       - image:
-          src: /uploads/peter-rosberg.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.04.23 PM.png
         label: ''
-        headline: Peter Rosberg
-        subhead: Ripple
-        body: ''
-      - image:
-          src: /uploads/soloway.webp
-        label: ''
-        headline: Joshua Soloway
-        subhead: Ethicstream
-        body: ''
-      - image:
-          src: /uploads/hess.webp
-        label: ''
-        headline: Sebastien Hess
-        subhead: Block Green
-        body: ''
-      - image:
-          src: /uploads/miller.webp
-        label: ''
-        headline: Doug Miller
-        subhead: Clean Energy Buyers Institute
-        body: ''
-      - image:
-          src: /uploads/john-x.webp
-        label: ''
-        headline: John X
-        subhead: Toucan Protocol
-        body: ''
-      - image:
-          src: /uploads/sandal.webp
-        label: ''
-        headline: Simge Sandal
+        headline: Simeon Max
         subhead: GainForest
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
+        label: ''
+        headline: René Pinnell
+        subhead: Artizen
+        body: ''
+      - image:
+          src: /uploads/Foto2022.jpeg
+          alt: Juan G.
+        label: ''
+        headline: Juan Giraldo
+        subhead: ReFi Medellín
+        body: ''
+      - image:
+          src: /uploads/Elliot_David.jpg
+          alt: Elliott D.
+        label: ''
+        headline: Elliot David
+        subhead: Sustainable Bitcoin Protocol
+        body: ''
+      - image:
+          src: /uploads/Screenshot 2023-07-12 at 3.59.57 PM.png
+        label: ''
+        headline: Stenver Jerkku
+        subhead: Solid World
         body: ''
       - image:
           src: /uploads/ransil.webp
@@ -382,106 +377,28 @@ blocks:
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/shadrin.webp
+          src: /uploads/Screenshot 2023-07-12 at 3.56.08 PM.png
         label: ''
-        headline: Alexey Shadrin
-        subhead: Evercity
+        headline: Ben Towne
+        subhead: PREPchain
         body: ''
       - image:
-          src: /uploads/varshney.webp
+          src: /uploads/Screenshot 2023-07-12 at 3.58.50 PM.png
         label: ''
-        headline: Isha Varshney
-        subhead: Celo Foundation
+        headline: Utkarsh Patel
+        subhead: Solarpunk Dao
         body: ''
       - image:
-          src: /uploads/geisenberger.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.00.55 PM.png
         label: ''
-        headline: Wes Geisenberger
-        subhead: HBAR Foundation
+        headline: "Stefan\tKermer"
+        subhead: Dione Protocol
         body: ''
       - image:
-          src: /uploads/landua.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.02.17 PM.png
         label: ''
-        headline: Gregory Landua
-        subhead: Regen Network
-        body: ''
-      - image:
-          src: /uploads/maguire.webp
-        label: ''
-        headline: Angie Maguire
-        subhead: Protocol Labs
-        body: ''
-      - image:
-          src: /uploads/thomas.webp
-        label: ''
-        headline: Ryan Thomas
-        subhead: Simbiotica Finance
-        body: ''
-      - image:
-          src: /uploads/flanagan.webp
-        label: ''
-        headline: Sam Flanagan
-        subhead: Web3ForGood
-        body: ''
-      - image:
-          src: /uploads/murphy.webp
-        label: ''
-        headline: Erin Murphy
-        subhead: Topl
-        body: ''
-      - image:
-          src: /uploads/johnson.webp
-        label: ''
-        headline: Marc Johnson
-        subhead: Filecoin Green
-        body: ''
-      - image:
-          src: /uploads/inampudi.webp
-        label: ''
-        headline: Kalyani Inampudi
-        subhead: ESG and Carbon Consultant
-        body: ''
-      - image:
-          src: /uploads/kaya.webp
-        label: ''
-        headline: Fikriye Colette Kaya
-        subhead: 'CERN, Tufts University'
-        body: ''
-      - image:
-          src: /uploads/dotan.webp
-        label: ''
-        headline: Jonathan Dotan
-        subhead: EQTY Lab
-        body: ''
-      - image:
-          src: /uploads/kaasovic.webp
-        label: ''
-        headline: Jason Kaasovic
-        subhead: Web3 Renewables
-        body: ''
-      - image:
-          src: /uploads/yeleswarapu.webp
-        label: ''
-        headline: Akshay Yeleswarapu
-        subhead: de-plan ostrom
-        body: ''
-      - image:
-          src: /uploads/aureliuslol.webp
-        label: ''
-        headline: Marcus Aurelius
-        subhead: KlimaDAO
-        body: ''
-      - image:
-          src: /uploads/clement.webp
-        label: ''
-        headline: Benoît Clément
-        subhead: Verra
-        body: ''
-      - image:
-          src: /uploads/harvey.webp
-        label: ''
-        headline: Ned Harvey
-        subhead: Digital Gaia
+        headline: "Tobias\tKuhlmann"
+        subhead: Mento Labs
         body: ''
       - image:
           src: /uploads/moore.webp
@@ -490,40 +407,40 @@ blocks:
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/kimbwala.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.03.40 PM.png
         label: ''
-        headline: Gloria Kimbwala
-        subhead: Buidlbox.io
+        headline: Laura Angel
+        subhead: Zondax
         body: ''
       - image:
-          src: /uploads/kalaw.webp
+          src: /uploads/maguire.webp
         label: ''
-        headline: Angelo Kalaw
-        subhead: Celo Foundation
+        headline: Angie Maguire
+        subhead: Protocol Labs
         body: ''
       - image:
-          src: /uploads/edmonds.webp
+          src: /uploads/Screenshot 2023-07-12 at 3.52.12 PM.png
         label: ''
-        headline: Nick Edmonds
-        subhead: Topl
+        headline: Peace Bello
+        subhead: Chemotronix Limited
         body: ''
       - image:
-          src: /uploads/ranganathan.webp
+          src: /uploads/Screenshot 2023-07-12 at 4.06.21 PM.png
         label: ''
-        headline: Nirvaan Ranganathan
-        subhead: Climate Collective
+        headline: Boone Bergsma
+        subhead: Blockchain Laboratories
         body: ''
       - image:
-          src: /uploads/venkatakrishnan.webp
+          src: /uploads/Screenshot 2023-07-12 at 3.53.50 PM.png
         label: ''
-        headline: Mukund Venkatakrishnan
-        subhead: Blueprint Finance
+        headline: Kendra Leong
+        subhead: She256
         body: ''
       - image:
-          src: /uploads/kanter.webp
+          src: /uploads/johnson.webp
         label: ''
-        headline: Maxwell Kanter
-        subhead: Gitcoin
+        headline: Marc Johnson
+        subhead: Filecoin Green
         body: ''
     _template: speakers
   - style:
@@ -603,6 +520,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
