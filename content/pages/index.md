@@ -326,13 +326,6 @@ blocks:
         subhead: PATH Collective
         body: ''
       - image:
-          src: /uploads/Adelaine Headshot.jpg
-          alt: Adelaine B.
-        label: ''
-        headline: Adelaine Bhattacharjee
-        subhead: Topl
-        body: ''
-      - image:
           src: /uploads/IMG_1401.jpeg
         label: ''
         headline: Ester Silva
@@ -343,6 +336,13 @@ blocks:
         label: ''
         headline: Simeon Max
         subhead: GainForest
+        body: ''
+      - image:
+          src: /uploads/Adelaine Headshot.jpg
+          alt: Adelaine B.
+        label: ''
+        headline: Adelaine Bhattacharjee
+        subhead: Topl
         body: ''
       - image:
           src: /uploads/Screenshot 2023-07-12 at 4.07.10 PM.png
@@ -520,6 +520,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
