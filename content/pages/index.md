@@ -539,10 +539,6 @@ blocks:
     headline: Speak at SBS Earth
     subhead: ''
     body: ''
-    buttons:
-      - label: Speak at SBS Earth
-        link: 'https://airtable.com/shrDMbSOehx2XDiho'
-        buttonStyle: outline
     _template: feature
   - style:
       padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-5 sm:pl-5'
@@ -604,6 +600,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
