@@ -12,6 +12,7 @@ blocks:
       textStyles: 'text-white mg-headline-small '
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       src: ''
       style: bg-repeat
       position: bg-center
@@ -20,7 +21,15 @@ blocks:
           alignment: center
           width: '600'
           xOffset: '-600'
-          yOffset: '0'
+          yOffset: '-300'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '1200'
+          startScale: '1'
+          startRotation: '0'
+          endOffsetY: '300'
+          endScale: '1.5'
+          endRotation: '-30'
     image:
       src: /uploads/logo-sbs-earth-vert-light-tall.svg
     label: ''
@@ -40,6 +49,7 @@ blocks:
       textStyles: text-white mg-copy-small mb-12
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       style: bg-cover
       position: bg-center
       ornaments:
@@ -47,6 +57,11 @@ blocks:
           alignment: center
           xOffset: '600'
           yOffset: '-50'
+          animationType: none
+          duration: '2500'
+          scrollOffset: '-500'
+          startRotation: ''
+          endRotation: ''
     image:
       src: /uploads/virtual-label.svg
     label: ''
@@ -79,15 +94,109 @@ blocks:
     background:
       fillStyles: ' opacity-100'
       wrapFillStyles: ' opacity-100'
-      src: /uploads/lead-in-bg.webp
+      animatedBackground: bg-lead-in.jpg
+      src: ''
       style: bg-cover
       position: bg-center
       ornaments:
-        - src: /uploads/dandelion.webp
+        - src: /uploads/dandelions.webp
           alignment: bottom
-          height: '430'
-          xOffset: '-600'
-          yOffset: ''
+          xOffset: '-608'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          height: '54'
+          xOffset: '-380'
+          yOffset: '-365'
+          animationType: scroll
+          duration: '2000'
+          scrollOffset: '0'
+          endOffsetY: '-200'
+          endOffsetX: '50'
+          endRotation: '25'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          height: '54'
+          xOffset: '-293'
+          yOffset: '-325'
+          animationType: scroll
+          duration: '2000'
+          scrollOffset: '0'
+          startRotation: ''
+          endOffsetY: '-160'
+          endOffsetX: '50'
+          endRotation: '45'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-380'
+          yOffset: '-430'
+          animationType: scroll
+          duration: '2000'
+          scrollOffset: '0'
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startRotation: '-110'
+          endOffsetY: '-180'
+          endOffsetX: '-40'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-380'
+          yOffset: '-260'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '50'
+          endOffsetY: '-160'
+          endOffsetX: '-20'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-360'
+          yOffset: '-250'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '45'
+          endOffsetY: '-120'
+          endOffsetX: '20'
+          endRotation: '90'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-420'
+          yOffset: '-320'
+          animationType: scroll
+          duration: '2000'
+          startRotation: '10'
+          endOffsetY: '-90'
+          endOffsetX: '40'
+          endRotation: '70'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-440'
+          yOffset: '-300'
+          animationType: scroll
+          duration: '2000'
+          endOffsetY: '-120'
+          endOffsetX: '-20'
+          endRotation: '-50'
+        - src: /uploads/dandelion-seed-1.webp
+          alignment: bottom
+          xOffset: '-490'
+          yOffset: '-280'
+          animationType: scroll
+          duration: '2000'
+          startOffsetY: ''
+          startOffsetX: ''
+          startRotation: '-20'
+          endOffsetY: '-100'
+          endOffsetX: '-10'
+          endRotation: '-50'
+        - src: /uploads/dandelion-seed-2.webp
+          alignment: bottom
+          xOffset: '-430'
+          yOffset: '-270'
+          animationType: scroll
+          duration: '2000'
+          endOffsetY: '-130'
+          endOffsetX: '10'
+          endScale: '1.2'
+          endRotation: '25'
     headline: ''
     subhead: ''
     body: >
@@ -116,6 +225,7 @@ blocks:
       textStyles: text-black mg-copy undefined
     background:
       fillStyles: ' opacity-100'
+      wrapFillStyles: ' opacity-100'
       src: ''
       style: bg-cover
       position: bg-center
@@ -123,27 +233,72 @@ blocks:
         - src: /uploads/clematis.webp
           alignment: bottom
           xOffset: '-600'
-          yOffset: '50'
+          yOffset: '-550'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-600'
+          startOffsetY: '0'
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '0'
+          endScale: '1'
+          endRotation: '20'
         - src: /uploads/abstract-1.png
           alignment: top
           width: '450'
           xOffset: '-650'
           yOffset: '170'
-        - src: /uploads/blue-blur.svg
-          alignment: bottom
-          xOffset: '-750'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: '-50'
+          startScale: '.8'
+          startRotation: '0'
+          endScale: '1'
+          endRotation: '40'
         - src: /uploads/blue-blur.svg
           alignment: top
           xOffset: '700'
           yOffset: '200'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOpacity: '0.7'
+          startScale: '.8'
+          endOffsetY: 5-
+          endOffsetX: '50'
+          endScale: '1.5'
         - src: /uploads/green-blur.svg
           alignment: top
           xOffset: '750'
           yOffset: '-100'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: ''
+          startOffsetY: '0'
+          startOffsetX: '0'
+          startOpacity: '0.8'
+          startScale: '.7'
+          startRotation: '0'
+          endOffsetX: '-200'
+          endScale: '1.4'
+          endRotation: '10'
         - src: /uploads/carnation.webp
           alignment: top
           xOffset: '600'
           yOffset: '250'
+          animationType: scroll
+          duration: '2500'
+          scrollOffset: '-500'
+          startOffsetY: ''
+          startScale: '.8'
+          startRotation: '0'
+          endOffsetY: '-100'
+          endScale: '1'
+          endRotation: '-20'
+        - src: /uploads/blue-blur.svg
+          alignment: bottom
+          xOffset: '-750'
     label: ''
     headline: Previous Speakers
     subhead: ''
@@ -154,218 +309,218 @@ blocks:
       SBS Earth speaker lineup to be announced soon.
     items:
       - image:
-          src: /uploads/jason jay.png
+          src: /uploads/jasonjay.webp
           alt: Jason Jay
         label: ''
         headline: Jason Jay
         subhead: MIT Sloan School of Management
         body: ''
       - image:
-          src: /uploads/kirsteen-harrison.png
+          src: /uploads/kirsteen-harrison.webp
         label: ''
         headline: Kirsteen Harrison
         subhead: Zumo
         body: ''
       - image:
-          src: /uploads/alex-paris.png
+          src: /uploads/alex-paris.webp
         label: ''
         headline: Alex Paris
         subhead: UNFCCC
         body: ''
       - image:
-          src: /uploads/killian-daly2.jpg
+          src: /uploads/killian-daly2.webp
         label: ''
         headline: Killian Daly
         subhead: EnergyTag
         body: ''
       - image:
-          src: /uploads/jaye2.jpeg
+          src: /uploads/jaye2.webp
         label: ''
         headline: Jaye Connolly-LaBelle
         subhead: Caelum Resources
         body: ''
       - image:
-          src: /uploads/1516158845713 (1).jpeg
+          src: /uploads/peter-rosberg.webp
         label: ''
         headline: Peter Rosberg
         subhead: Ripple
         body: ''
       - image:
-          src: /uploads/soloway.jpg
+          src: /uploads/soloway.webp
         label: ''
         headline: Joshua Soloway
         subhead: Ethicstream
         body: ''
       - image:
-          src: /uploads/hess.jpeg
+          src: /uploads/hess.webp
         label: ''
         headline: Sebastien Hess
         subhead: Block Green
         body: ''
       - image:
-          src: /uploads/miller.png
+          src: /uploads/miller.webp
         label: ''
         headline: Doug Miller
         subhead: Clean Energy Buyers Institute
         body: ''
       - image:
-          src: /uploads/john-x.png
+          src: /uploads/john-x.webp
         label: ''
         headline: John X
         subhead: Toucan Protocol
         body: ''
       - image:
-          src: /uploads/sandal.jpeg
+          src: /uploads/sandal.webp
         label: ''
         headline: Simge Sandal
         subhead: GainForest
         body: ''
       - image:
-          src: /uploads/ransil.jpg
+          src: /uploads/ransil.webp
         label: ''
         headline: Alan Ransil
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/shadrin.jpg
+          src: /uploads/shadrin.webp
         label: ''
         headline: Alexey Shadrin
         subhead: Evercity
         body: ''
       - image:
-          src: /uploads/varshney.jpeg
+          src: /uploads/varshney.webp
         label: ''
         headline: Isha Varshney
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/geisenberger.jpeg
+          src: /uploads/geisenberger.webp
         label: ''
         headline: Wes Geisenberger
         subhead: HBAR Foundation
         body: ''
       - image:
-          src: /uploads/landua.png
+          src: /uploads/landua.webp
         label: ''
         headline: Gregory Landua
         subhead: Regen Network
         body: ''
       - image:
-          src: /uploads/maguire.png
+          src: /uploads/maguire.webp
         label: ''
         headline: Angie Maguire
         subhead: Protocol Labs
         body: ''
       - image:
-          src: /uploads/thomas.png
+          src: /uploads/thomas.webp
         label: ''
         headline: Ryan Thomas
         subhead: Simbiotica Finance
         body: ''
       - image:
-          src: /uploads/flanagan.jpeg
+          src: /uploads/flanagan.webp
         label: ''
         headline: Sam Flanagan
         subhead: Web3ForGood
         body: ''
       - image:
-          src: /uploads/murphy.png
+          src: /uploads/murphy.webp
         label: ''
         headline: Erin Murphy
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/johnson.jpeg
+          src: /uploads/johnson.webp
         label: ''
         headline: Marc Johnson
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/inampudi.png
+          src: /uploads/inampudi.webp
         label: ''
         headline: Kalyani Inampudi
         subhead: ESG and Carbon Consultant
         body: ''
       - image:
-          src: /uploads/kaya.png
+          src: /uploads/kaya.webp
         label: ''
         headline: Fikriye Colette Kaya
         subhead: 'CERN, Tufts University'
         body: ''
       - image:
-          src: /uploads/dotan.jpeg
+          src: /uploads/dotan.webp
         label: ''
         headline: Jonathan Dotan
         subhead: EQTY Lab
         body: ''
       - image:
-          src: /uploads/kaasovic.png
+          src: /uploads/kaasovic.webp
         label: ''
         headline: Jason Kaasovic
         subhead: Web3 Renewables
         body: ''
       - image:
-          src: /uploads/yeleswarapu.png
+          src: /uploads/yeleswarapu.webp
         label: ''
         headline: Akshay Yeleswarapu
         subhead: de-plan ostrom
         body: ''
       - image:
-          src: /uploads/aureliuslol.png
+          src: /uploads/aureliuslol.webp
         label: ''
         headline: Marcus Aurelius
         subhead: KlimaDAO
         body: ''
       - image:
-          src: /uploads/clement.jpeg
+          src: /uploads/clement.webp
         label: ''
         headline: Benoît Clément
         subhead: Verra
         body: ''
       - image:
-          src: /uploads/harvey.jpeg
+          src: /uploads/harvey.webp
         label: ''
         headline: Ned Harvey
         subhead: Digital Gaia
         body: ''
       - image:
-          src: /uploads/moore.png
+          src: /uploads/moore.webp
         label: ''
         headline: Caitlin Moore
         subhead: Filecoin Green
         body: ''
       - image:
-          src: /uploads/kimbwala.jpeg
+          src: /uploads/kimbwala.webp
         label: ''
         headline: Gloria Kimbwala
         subhead: Buidlbox.io
         body: ''
       - image:
-          src: /uploads/kalaw.jpeg
+          src: /uploads/kalaw.webp
         label: ''
         headline: Angelo Kalaw
         subhead: Celo Foundation
         body: ''
       - image:
-          src: /uploads/edmonds.png
+          src: /uploads/edmonds.webp
         label: ''
         headline: Nick Edmonds
         subhead: Topl
         body: ''
       - image:
-          src: /uploads/ranganathan.png
+          src: /uploads/ranganathan.webp
         label: ''
         headline: Nirvaan Ranganathan
         subhead: Climate Collective
         body: ''
       - image:
-          src: /uploads/venkatakrishnan.png
+          src: /uploads/venkatakrishnan.webp
         label: ''
         headline: Mukund Venkatakrishnan
         subhead: Blueprint Finance
         body: ''
       - image:
-          src: /uploads/kanter.jpeg
+          src: /uploads/kanter.webp
         label: ''
         headline: Maxwell Kanter
         subhead: Gitcoin
@@ -397,7 +552,9 @@ blocks:
       headlineStyles: text-white mg-headline-medium undefined
     background:
       fillStyles: ' opacity-100'
-      src: /uploads/bg-sponsors.jpg
+      wrapFillStyles: ' opacity-100'
+      animatedBackground: bg-sponsors.jpg
+      src: ''
       style: bg-cover
       position: bg-center
     partners:
@@ -450,3 +607,48 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
