@@ -71,14 +71,14 @@ export const Speakers = ({ data, parentField = "" }) => {
                 <Tween
                   from={{
                     opacity: 0,
-                    y: 150,
+                    y: 75,
                   }}
                   to={{
                     opacity: 1,
                     y: 0,
                   }}
                   stagger={0.2}
-                  duration={.7}
+                  duration={1}
                 >
                   {data.items.slice((row - 1) * 4, row * 4).map((block, index) => (
                     <Speaker key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />
