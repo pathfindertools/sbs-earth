@@ -78,9 +78,6 @@ blocks:
         link: >-
           https://www.eventbrite.com/e/sustainable-blockchain-summit-earth-registration-636837918357
         buttonStyle: outline
-      - label: Submit a proposal
-        link: 'https://airtable.com/shrDMbSOehx2XDiho'
-        buttonStyle: outline
     _template: feature
   - style:
       alignment: 'flex-col-reverse items-center '
@@ -607,6 +604,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
