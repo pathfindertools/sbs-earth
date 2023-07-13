@@ -389,6 +389,11 @@ blocks:
         subhead: Solarpunk Dao
         body: ''
       - image:
+          src: /uploads/signal-2023-01-15-135954.png
+        label: ''
+        headline: "Magenta\tCeiba"
+        subhead: Bloom Network
+      - image:
           src: /uploads/Screenshot 2023-07-12 at 4.00.55 PM.png
         label: ''
         headline: "Stefan\tKermer"
@@ -442,6 +447,11 @@ blocks:
         headline: Marc Johnson
         subhead: Filecoin Green
         body: ''
+      - image:
+          src: /uploads/headshot.png
+        label: ''
+        headline: Jim Jiang
+        subhead: SXX Data Future
     _template: speakers
   - style:
       alignment: 'flex-col items-center '
@@ -520,6 +530,7 @@ background:
   style: bg-repeat
   position: bg-center
 ---
+
 
 
 
